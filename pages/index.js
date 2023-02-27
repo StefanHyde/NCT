@@ -1,8 +1,7 @@
 import Head from 'next/head'
+import Hero from '../components/hero'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import Layout from "@/components/layouts/layout";
-import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,8 +16,8 @@ export default function Home() {
       </Head>
 
 
-       <div className="relative h-screen">
-           <h1>BODY</h1>
+       <div className="relative h-screen mt-16">
+           <Hero />
        </div>
 
     </>
