@@ -14,6 +14,10 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         scified: ['Sci Fied', 'sans-serif']
+      },
+      height: {
+        '192': '48rem',
+        '256': '60rem',
       }
     },
 

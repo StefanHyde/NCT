@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/hero'
-import Image from 'next/image'
+import imgBanner from '../assets/img/NCT_banner_home.jpg';
 import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
 
 
-       <div className="relative h-screen mt-16">
-           <Hero />
+       <div className="mt-18">
+           <Hero src={imgBanner}  />
        </div>
 
     </>
