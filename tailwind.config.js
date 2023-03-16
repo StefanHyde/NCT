@@ -16,6 +16,7 @@ module.exports = {
         scified: ['Sci Fied', 'sans-serif']
       },
       height: {
+        '128' : '32rem',
         '192': '48rem',
         '256': '60rem',
       }

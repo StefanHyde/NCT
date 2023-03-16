@@ -18,13 +18,13 @@ export default function Home() {
 
             <div className="mt-18">
                 <Hero src={imgBanner} alt={`salon de tatto neon cobra tattoo`} title={`NEON COBRA TATTOO`}
-                      description={`Votre salon de tattoo à Strasbourg`} place={`top-1/2 ml-40`}/>
+                      description={`Votre salon de tattoo à Strasbourg`} place={`xl:ml-40`}/>
             </div>
 
-            <div className="flex flex-col justify-center py-12 bg-neutrals-0 space-y-12">
+            <div className="flex flex-col py-12 bg-neutrals-0 space-y-12">
                 <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">LE SHOP</h2>
                 <div className="flex justify-center">
-                    <p className="w-1/2 font-poppins text-center text-neutrals-1000">Après plusieurs années
+                    <p className="w-full px-6 lg:w-1/2 font-poppins text-center text-neutrals-1000">Après plusieurs années
                         passées dans leurs boutiques respectives, Éric, Richard, Jean-Baptiste et Bertrand décident de
                         fonder Neon Cobra, un studio de tatouage basé à Strasbourg et qui réunit différents styles.
                         Japonais traditionnel, néo japonais, néo traditionnel, géométrique ou encore dotwork et
