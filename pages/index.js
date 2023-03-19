@@ -1,9 +1,16 @@
 import Head from 'next/head'
 import Hero from '../components/hero'
 import imgBanner from '../assets/img/NCT_banner_home.jpg';
-import {Inter} from '@next/font/google'
+import {homePage} from '../data/homepage';
 
-const inter = Inter({subsets: ['latin']})
+
+export const getStaticProps = async () => {
+    return {
+        props: {
+            homeContent: homePage,
+        }
+    }
+}
 
 export default function Home() {
     return (
@@ -24,28 +31,16 @@ export default function Home() {
             <div className="flex flex-col py-12 bg-neutrals-0 space-y-12">
                 <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">LE SHOP</h2>
                 <div className="flex justify-center">
-                    <p className="w-full px-6 lg:w-1/2 font-poppins text-center text-neutrals-1000">Après plusieurs années
-                        passées dans leurs boutiques respectives, Éric, Richard, Jean-Baptiste et Bertrand décident de
-                        fonder Neon Cobra, un studio de tatouage basé à Strasbourg et qui réunit différents styles.
-                        Japonais traditionnel, néo japonais, néo traditionnel, géométrique ou encore dotwork et
-                        handpoke, ce
-                        studio privé propose une multitude d’univers graphiques et de techniques ; un large éventail de
-                        tatouages tous réalisés par des professionnels renommés dans leur domaine.
-                        Du grand projet pour le dos ou le bras dessiné sur mesure, au petit tatouage - flash - choisi
-                        sur
-                        place, tous les projets sont traités avec le même niveau d'exigence, un grand sérieux et un
-                        respect
-                        total de l’intégrité physique des clients.
-                        Chaque tatoueur est joignable par e-mail, par téléphone ou via Instagram afin de discuter d’un
-                        projet. Il est également possible de passer directement au studio et cela sans rendez-vous.
-                        Référence en Alsace, le studio de tatouage Neon Cobra répond à toutes les demandes, dans une
-                        ambiance chaleureuse et bienveillante.
-                        <br/>
-                        <br/>
-                        Et vous, c’est quoi votre idée ?
-                    </p>
-                </div>
 
+                        {homePage.map(homePage =>
+                            <p key={homePage.id} className="w-full px-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
+                                {homePage.data}
+                                <br/>
+                                <br/>
+                                {homePage.extra}
+                            </p>
+                        )}
+                </div>
             </div>
 
         </>
