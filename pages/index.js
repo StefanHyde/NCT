@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/hero'
-import imgBanner from '../assets/img/NCT_banner_home.jpg';
+import swiperHome from "../components/swiper";
+import imgBanner from '../public/img/NCT_banner_home.jpg';
 import {homePage} from '../data/homepage';
 
 
@@ -33,7 +34,7 @@ export default function Home() {
                 <div className="flex justify-center">
 
                         {homePage.map(homePage =>
-                            <p key={homePage.id} className="w-full px-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
+                            <p key={homePage.id} className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                                 {homePage.data}
                                 <br/>
                                 <br/>
@@ -41,6 +42,10 @@ export default function Home() {
                             </p>
                         )}
                 </div>
+            </div>
+
+            <div>
+                {swiperHome()}
             </div>
 
         </>
