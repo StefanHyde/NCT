@@ -16,7 +16,9 @@ export default function Nav() {
             className='fixed top-0 w-full h-auto px-0 md:px-8 py-2 bg-neutrals-0 z-50'
         >
             <div className="flex order-2 justify-center md:justify-between w-full md:w-auto text-neutrals-1000">
-                <Button className="hidden md:flex bg-secondary-500 text-neutrals-0 rounded-md border-0 hover:bg-secondary-600 ease-in-out duration-500" href="/">
+                <Button
+                    className="hidden md:flex bg-secondary-500 text-neutrals-0 rounded-md border-0 hover:bg-secondary-600 ease-in-out duration-500"
+                    href="/">
                     Nous contacter
                 </Button>
                 <Navbar.Toggle/>
@@ -35,7 +37,9 @@ export default function Nav() {
                     }
                 )
                 }
-                <Button className="md:hidden my-4 bg-secondary-500 text-neutrals-0 rounded-none border-none hover:bg-secondary-600 ease-in-out duration-500" href="/">
+                <Button
+                    className="md:hidden my-4 bg-secondary-500 text-neutrals-0 rounded-none border-none hover:bg-secondary-600 ease-in-out duration-500"
+                    href="/">
                     Nous contacter
                 </Button>
 

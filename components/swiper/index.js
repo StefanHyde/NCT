@@ -8,18 +8,26 @@ export default function swiperHome() {
 
     return (
         <Swiper
-            spaceBetween={1}
-            slidesPerView={4}
+            spaceBetween={0}
+            slidesPerView={2}
             loop={true}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+
+            breakpoints={{
+
+                640: {
+                    spaceBetween: 0,
+                    slidesPerView: 3,
+                },
+
+                1024: {
+                    spaceBetween: 0,
+                    slidesPerView: 4,
+                },
+            }}
         >
             {pictures.map((picture, i) =>
-
-                // eslint-disable-next-line react/jsx-key
-                <SwiperSlide><Image src={`/img/${picture.toString()}`} width={500}
-                                    height={500}/></SwiperSlide>)}
-            ...
+                <SwiperSlide key={picture}><Image src={`/img/${picture.toString()}`} width={500}
+                                                  height={500} alt={'images du salon de tattoo'}/></SwiperSlide>)}
         </Swiper>
     );
 };

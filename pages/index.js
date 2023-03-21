@@ -25,7 +25,7 @@ export default function Home() {
 
 
             <div className="mt-18">
-                <Hero src={imgBanner} alt={`salon de tatto neon cobra tattoo`} title={`NEON COBRA TATTOO`}
+                <Hero src={imgBanner} alt={`salon de tattoo neon cobra tattoo`} title={`NEON COBRA TATTOO`}
                       description={`Votre salon de tattoo à Strasbourg`} place={`xl:ml-40`}/>
             </div>
 
@@ -33,14 +33,15 @@ export default function Home() {
                 <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">LE SHOP</h2>
                 <div className="flex justify-center">
 
-                        {homePage.map(homePage =>
-                            <p key={homePage.id} className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                                {homePage.data}
-                                <br/>
-                                <br/>
-                                {homePage.extra}
-                            </p>
-                        )}
+                    {homePage.map(homePage =>
+                        <p key={homePage.id}
+                           className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
+                            {homePage.data}
+                            <br/>
+                            <br/>
+                            {homePage.extra}
+                        </p>
+                    )}
                 </div>
             </div>
 
