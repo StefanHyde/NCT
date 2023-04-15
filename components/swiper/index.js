@@ -23,6 +23,11 @@ export default function swiperHome() {
                     spaceBetween: 0,
                     slidesPerView: 4,
                 },
+
+                1700: {
+                    spaceBetween: 0,
+                    slidesPerView: 6,
+                },
             }}
         >
             {pictures.map((picture, i) =>
