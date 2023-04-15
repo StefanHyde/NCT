@@ -1,7 +1,33 @@
-export default function Footer () {
+import {GrInstagram, GrFacebook} from 'react-icons/gr'
+import Link from "next/link";
+
+export default function Footer() {
     return (
         <footer>
-            <div>FOOTER</div>
+            <div
+                className="flex flex-col items-center pt-12 pb-8 text-neutrals-0 text-center bg-neutrals-1000 space-y-10">
+                <h4 className="font-scified text-2xl font-normal">NEON COBRA TATTOO</h4>
+                <p>
+                    8 Rue de la Course <br/>
+                    67000 STRASBOURG <br/>
+                    03 92 01 22 51
+                </p>
+                <div className="flex gap-8">
+                    <Link href="https://www.instagram.com/neoncobratattoo/?hl=fr"><GrInstagram
+                        className="text-2xl text-neutrals-0 hover:text-secondary-500 ease-in-out duration-300"/></Link>
+                    <Link href="https://www.facebook.com/profile.php?id=100078082662786"><GrFacebook
+                        className="text-2xl text-neutrals-0 hover:text-secondary-500 ease-in-out duration-300"/></Link>
+
+                </div>
+
+                <div className="flex lg:place-self-start px-8">
+                    <p className="text-sm hover:text-secondary-500 ease-in-out duration-300">
+                        <Link href="/mentions">Mentions légales</Link>
+                    </p>
+
+                </div>
+
+            </div>
         </footer>
     )
 }

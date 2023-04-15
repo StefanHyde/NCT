@@ -16,10 +16,10 @@ export default function Home() {
 
             <div className="mt-18">
                 <Hero src={imgBanner} alt={`salon de tattoo neon cobra tattoo`} title={`NEON COBRA TATTOO`}
-                      description={`salon de tatouage à Strasbourg pour toutes vos envies`} place={`xl:ml-40`}/>
+                      description={`Salon de tatouage à Strasbourg pour toutes vos envies`} place={`xl:ml-40`}/>
             </div>
 
-            <div className="flex flex-col py-12 bg-neutrals-0 space-y-12">
+            <div id={"shop"} className="flex flex-col py-12 bg-neutrals-0 space-y-12">
                 <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">LE SHOP</h2>
                 <div className="flex justify-center">
 
@@ -91,6 +91,7 @@ export default function Home() {
 
                 </div>
             </div>
+
 
 
         </>
