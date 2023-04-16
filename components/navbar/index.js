@@ -4,7 +4,7 @@ import {Button} from "flowbite-react";
 
 const navLinks = [
     {text: "Le shop", href: "/#shop"},
-    {text: "Les artistes", href: "/artists"},
+    {text: "Les artistes", href: "/#artists"},
     {text: "Nos actualités", href: "/actualites"},
 ]
 
