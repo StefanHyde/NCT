@@ -95,7 +95,7 @@ export default function Home() {
 
             <div id={"artists"} className="flex flex-col items-center py-12 bg-neutrals-1000 space-y-12">
                 <h2 className="font-scified text-3xl font-normal text-neutrals-0 text-center">LES ARTISTES</h2>
-                <div className="p-8 w-full">
+                <div className="p-8 w-auto">
                     {artistGrid()}
                 </div>
             </div>
