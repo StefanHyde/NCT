@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 
 export default function swiperHome() {
-    const pictures = ['NCT-swipe1.png', 'NCT-swipe2.png', 'NCT-swipe4.png', 'NCT-swipe5.png', 'NCT-swipe6.png', 'NCT-swipe7.png'];
+    const pictures = ['NCT_homeswip1.jpg', 'NCT_homeswip3.jpg', 'NCT_homeswip2.jpg', 'NCT_homeswip4.jpg', 'NCT_homeswip5.jpg', 'NCT_homeswip6.jpg', 'NCT_homeswip7.jpg', ];
 
     return (
         <Swiper
