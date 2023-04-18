@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from '@/components/hero'
 import swiperHome from "@/components/swiper";
+import artistSwiper from "@/components/artistSwiper";
 import artistGrid from "@/components/artistGrid";
 import imgBanner from '../public/img/NCT_banner_home.jpg';
 
@@ -97,6 +98,10 @@ export default function Home() {
                 <h2 className="font-scified text-3xl font-normal text-neutrals-0 text-center">LES ARTISTES</h2>
                 <div className="p-8 w-auto">
                     {artistGrid()}
+                </div>
+
+                <div className="p-12 w-full xl:w-3/4 2xl:w-1/2">
+                    {artistSwiper()}
                 </div>
             </div>
 
