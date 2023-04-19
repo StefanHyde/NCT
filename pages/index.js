@@ -100,7 +100,7 @@ export default function Home() {
                     {artistGrid()}
                 </div>
 
-                <div className="p-12 w-full xl:w-3/4 2xl:w-1/2">
+                <div className="p-12 w-full xl:w-3/4 2xl:w-1/2 text-neutrals-0">
                     {artistSwiper()}
                 </div>
             </div>
