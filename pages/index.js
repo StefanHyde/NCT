@@ -105,6 +105,44 @@ export default function Home() {
                 </div>
             </div>
 
+            <div id={"contact"} className="flex flex-col py-12 bg-neutrals-0 space-y-12">
+                <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">NOUS CONTACTER</h2>
+
+                <div className="flex justify-center">
+                    <p className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">Une demande
+                        de renseignement concernant un futur tatouage ? Ou bien une
+                        prise de RDV ? <br/>
+                        Vous pouvez également nous contacter via le formulaire ci-dessous.
+                    </p>
+
+
+                </div>
+            </div>
+
+            <div className="flex flex-col bg-neutrals-1000 ">
+                <div className="flex flex-col items-center space-y-8 py-12 font-poppins text-center text-neutrals-0">
+                    <h2 className="font-poppins text-center text-neutrals-0 uppercase">Venir au salon de tatouage Neon
+                        Cobra à Strasbourg</h2>
+                    <p className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">Le tatouage,
+                        c’est avant tout une rencontre. Notre <strong>salon de tatouage est situé 8, rue de la course à
+                            Strasbourg</strong>. La rue de la course s’étend entre le boulevard de Nancy et le Quai
+                        Saint-Jean à Strasbourg. Le parking Zenpark Strasbourg est situé à 50 m, rue du
+                        Faubourg-National. Nous sommes <strong>à 350 mètres de la Gare de Strasbourg-Ville</strong>, à 5
+                        minutes à pied. Depuis la Place de la Gare de Strasbourg, prendre la Rue du Maire Kuss.
+                        Descendre jusqu’au Quai St Jean. À l’angle de l’hôtel Colmar, tourner à droite, rue de la
+                        Course, vous êtes arrivés. </p>
+                    <p>Référence en Alsace, le <strong>studio de tatouage Neon Cobra</strong> répond à toutes les
+                        demandes, dans une ambiance chaleureuse et bienveillante.</p>
+                </div>
+                <div className="w-full">
+                    <iframe className="w-full p-0"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4724.537639365289!2d7.739572609531189!3d48.58433089420646!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c94ea5f4aef1%3A0x23baefb0375e3c62!2sNEON%20COBRA%20TATTOO!5e0!3m2!1sfr!2sfr!4v1682015604598!5m2!1sfr!2sfr"
+                            width="1440" height="440" allowFullScreen="" loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
 
         </>
     )

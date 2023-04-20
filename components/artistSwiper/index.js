@@ -1,4 +1,5 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
+import SwiperCore, { Autoplay } from 'swiper'
 import 'swiper/css';
 import Image from 'next/image';
 import {GrInstagram} from "react-icons/gr";
@@ -12,9 +13,12 @@ import imgBertrand from '@/public/img/artists/bertrand/image0 (2).jpeg'
 export default function artistSwiper() {
     return (
         <Swiper
+            modules={[ Autoplay]}
             spaceBetween={0}
             slidesPerView={1}
+            autoplay={{ delay: 10000 }}
             loop={true}
+            pagination={{ clickable: true}}
         >
             <SwiperSlide>
                 <div className="flex flex-col xl:flex-row  items-center gap-16">
