@@ -3,6 +3,7 @@ import Hero from '@/components/hero'
 import swiperHome from "@/components/swiper";
 import artistSwiper from "@/components/artistSwiper";
 import artistGrid from "@/components/artistGrid";
+import Contact from "@/components/contact";
 import imgBanner from '../public/img/NCT_banner_home.jpg';
 
 export default function Home() {
@@ -114,9 +115,13 @@ export default function Home() {
                         prise de RDV ? <br/>
                         Vous pouvez également nous contacter via le formulaire ci-dessous.
                     </p>
-
-
                 </div>
+                
+                <div className="flex justify-center">
+                    {Contact()}
+                </div>
+
+
             </div>
 
             <div className="flex flex-col bg-neutrals-1000 ">
@@ -130,8 +135,8 @@ export default function Home() {
                         Faubourg-National. Nous sommes <strong>à 350 mètres de la Gare de Strasbourg-Ville</strong>, à 5
                         minutes à pied. Depuis la Place de la Gare de Strasbourg, prendre la Rue du Maire Kuss.
                         Descendre jusqu’au Quai St Jean. À l’angle de l’hôtel Colmar, tourner à droite, rue de la
-                        Course, vous êtes arrivés. </p>
-                    <p>Référence en Alsace, le <strong>studio de tatouage Neon Cobra</strong> répond à toutes les
+                        Course, vous êtes arrivés. <br />
+                    Référence en Alsace, le <strong>studio de tatouage Neon Cobra</strong> répond à toutes les
                         demandes, dans une ambiance chaleureuse et bienveillante.</p>
                 </div>
                 <div className="w-full">
@@ -142,6 +147,7 @@ export default function Home() {
                 </div>
 
             </div>
+
 
 
         </>
