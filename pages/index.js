@@ -106,7 +106,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div id={"contact"} className="flex flex-col py-12 bg-neutrals-0 space-y-12">
+            <div id={"contact"} className="flex flex-col py-12 bg-neutrals-0 space-y-8">
                 <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">NOUS CONTACTER</h2>
 
                 <div className="flex justify-center">
