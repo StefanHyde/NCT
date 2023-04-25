@@ -8,7 +8,7 @@ import Link from "next/link";
 import imgEric from '@/public/img/artists/eric/IMG_21581.jpg';
 import imgRichard from '@/public/img/artists/richard/IMG_20220925_191410_708.jpg'
 import imgJb from '@/public/img/artists/jb/jbdragon.jpg'
-import imgBertrand from '@/public/img/artists/bertrand/image0 (2).jpeg'
+import imgBertrand from '@/public/img/artists/bertrand/image0(2).jpeg'
 
 export default function artistSwiper() {
     return (
