@@ -31,10 +31,10 @@ export default function Home() {
                             studio de tatouage Neon Cobra a élu domicile.<br/>
                             Passionnée et minutieuse, <strong>l’équipe de tatoueurs strasbourgeois de Neon
                                 Cobra</strong> vous propose différents univers graphiques. Style géométrique, japonais
-                            traditionnel ou néojaponais ou encore tattoo Hanpoke, chaque tatoueur s'exprime en
+                            traditionnel ou neo japonais ou encore tattoo Handpoke, chaque tatoueur s'exprime en
                             fonction de sa personnalité. La technique est <strong>parfaitement maîtrisée par chaque
                                 artiste. </strong>
-                            Découvrez NeonCobra, un tattoo shop de <strong>référence en Alsace</strong>.
+                            Découvrez Neon Cobra, un tattoo shop de <strong>référence en Alsace</strong>.
                         </p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export default function Home() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Les tattoo proposés chez
+                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Les tattoos proposés chez
                             Neon Cobra, salon de tatouage à Strasbourg</h2>
                         <br/>
                         <p>Japonais traditionnel, néo japonais, néo traditionnel, géométrique ou encore dotwork et
@@ -69,7 +69,7 @@ export default function Home() {
                             large éventail de tatouages tous réalisés par <strong>des professionnels renommés dans leur
                                 domaine</strong>.</p>
                         <p>Du grand projet pour le dos, au <strong>petit tatouage flash</strong> choisi sur place, en
-                            passant pat ou la manchette dessinée sur mesure, tous les projets sont traités avec
+                            passant par la manchette dessinée sur mesure, tous les projets sont traités avec
                             le <strong>même niveau d'exigence</strong>, un grand sérieux et un respect total de
                             l’intégrité physique des clients.</p>
                     </div>
@@ -129,11 +129,11 @@ export default function Home() {
                     <h2 className="font-poppins text-center text-neutrals-0 uppercase">Venir au salon de tatouage Neon
                         Cobra à Strasbourg</h2>
                     <p className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">Le tatouage,
-                        c’est avant tout une rencontre. Notre <strong>salon de tatouage est situé 8, rue de la course à
-                            Strasbourg</strong>. La rue de la course s’étend entre le boulevard de Nancy et le Quai
+                        c’est avant tout une rencontre. Notre <strong>salon de tatouage est situé 8, rue de la Course à
+                            Strasbourg</strong>. La rue de la Course s’étend entre le boulevard de Nancy et le quai
                         Saint-Jean à Strasbourg. Le parking Zenpark Strasbourg est situé à 50 m, rue du
                         Faubourg-National. Nous sommes <strong>à 350 mètres de la Gare de Strasbourg-Ville</strong>, à 5
-                        minutes à pied. Depuis la Place de la Gare de Strasbourg, prendre la Rue du Maire Kuss.
+                        minutes à pied. Depuis la Place de la Gare de Strasbourg, prendre la rue du Maire Kuss.
                         Descendre jusqu’au Quai St Jean. À l’angle de l’hôtel Colmar, tourner à droite, rue de la
                         Course, vous êtes arrivés. <br />
                     Référence en Alsace, le <strong>studio de tatouage Neon Cobra</strong> répond à toutes les

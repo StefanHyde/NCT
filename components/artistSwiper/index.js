@@ -92,7 +92,7 @@ export default function artistSwiper() {
                             cela en tête”, et pratique le tatouage depuis plus de 15 ans. Au plus proche de la demande
                             de ses clients, il sait composer des tatouages qui leur correspondent, <strong>puissants et
                                 authentiques</strong>.</p>
-                        <p>“Il faut savoir rester fidèle à l’idée du client, la retranscrire avec précision.”</p>
+                        <p><i>“Il faut savoir rester fidèle à l’idée du client, la retranscrire avec précision.”</i></p>
                     </div>
 
                     <Image src={imgJb} width={350}
