@@ -22,7 +22,7 @@ export default function Home() {
                       description={`Salon de tatouage à Strasbourg pour toutes vos envies`} place={`xl:ml-40`}/>
             </div>
 
-            <div id={"shop"} className="flex flex-col py-12 bg-neutrals-0 space-y-12">
+            <div className="flex flex-col py-12 bg-neutrals-0 space-y-12">
                 <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">LE SHOP</h2>
                 <div className="flex justify-center">
 
@@ -101,7 +101,7 @@ export default function Home() {
                     {artistGrid()}
                 </div>
 
-                <div className="p-12 w-full xl:w-3/4 2xl:w-1/2 text-neutrals-0">
+                <div className="p-12 w-full 2xl:w-3/4 text-neutrals-0">
                     {artistSwiper()}
                 </div>
             </div>

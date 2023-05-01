@@ -80,10 +80,10 @@ export default function Contact() {
                     <select
                         className="block w-full mt-1 p-2 border border-neutrals-300 rounded-sm focus:border-neutrals-500 placeholder:text-sm font-light"
                         {...register('select', {required: true})}>
-                        <option>Bertrand</option>
-                        <option>Eric</option>
-                        <option>Jean Baptiste</option>
-                        <option>Richard</option>
+                        <option>Erico</option>
+                        <option>UncleHo</option>
+                        <option>JBMaglia</option>
+                        <option>Vert de Gris</option>
                     </select>
                     {errors.select && <p className="text-secondary-500 text-xs pt-1">Veuillez sélectionner un artiste</p>}
                 </label>

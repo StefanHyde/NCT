@@ -3,7 +3,7 @@ import {Navbar} from "flowbite-react";
 import {Button} from "flowbite-react";
 
 const navLinks = [
-    {text: "Le shop", href: "/#shop"},
+    {text: "Le shop", href: "/"},
     {text: "Les artistes", href: "/#artists"},
     {text: "Nos actualités", href: "/actualites"},
 ]
