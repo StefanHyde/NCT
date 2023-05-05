@@ -7,14 +7,14 @@ import Link from "next/link";
 export default function Richard() {
 
     const images = [
-        "/img/artists/richard/20221123_181950 (1).jpg",
-        "/img/artists/richard/20221222_145858 (1).jpg",
-        "/img/artists/richard/20230205_113241 (1).jpg",
-        "/img/artists/richard/20230211_171025 (1).jpg",
-        "/img/artists/richard/IMG_20210920_172519_594 (1).jpg",
+        "/img/artists/richard/20221123_181950(1).jpg",
+        "/img/artists/richard/20221222_145858(1).jpg",
+        "/img/artists/richard/20230205_113241(1).jpg",
+        "/img/artists/richard/20230211_171025(1).jpg",
+        "/img/artists/richard/IMG_20210920_172519_594(1).jpg",
         "/img/artists/richard/IMG_20211101_111640_546.jpg",
         "/img/artists/richard/IMG_20211116_160030_309.jpg",
-        "/img/artists/richard/IMG_20220121_165446_069 (1).jpg",
+        "/img/artists/richard/IMG_20220121_165446_069(1).jpg",
         "/img/artists/richard/IMG_20220202_213729_654.jpg",
         "/img/artists/richard/IMG_20220510_220845_873.jpg",
         "/img/artists/richard/IMG_20220613_173519_811.jpg",
