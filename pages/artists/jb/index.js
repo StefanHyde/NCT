@@ -167,7 +167,7 @@ export default function Jb() {
                             qu’il soit animal, végétal ou créature mythologique. Voici quelques motifs issus du
                             bestiaire ou de la mythologie traditionnelle japonaise. Ces <strong>motifs japonais
                                 traditionnels</strong> sont faisables en Gakubori ou en Nukibori, avec ou sans fond.
-                            Parmi les nombreux motifs, voici quelques éléments du tatouage japonais traditionnel.
+                            Parmi les nombreux motifs, voici quelques éléments du tatouage japonais traditionnel.</p>
                             <ul>
                                 <li>Le bestiaire : Ryū dragon, Tora tigre, Koï carpe, Houou phénix ou Baku.</li>
                                 <li>Les créatures fantastiques : Fudo myoo, masque Hannya, Fujin et Raijin.</li>
@@ -175,7 +175,6 @@ export default function Jb() {
                                     cerisier etc.
                                 </li>
                             </ul>
-                        </p>
                     </div>
                 </div>
             </div>
