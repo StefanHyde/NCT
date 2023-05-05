@@ -37,8 +37,8 @@ export default function handler(req, res) {
 
     //Create message
     const senderGridMail = {
-        to: "contact@stefanheyd.com",
-        from: "contact@stefanheyd.com",
+        to: "neoncobratattoo@gmail.com",
+        from: "neoncobratattoo@gmail.com",
         templateId: "d-2b19a7a80ac14d58b8a85dbea0764e83",
         dynamic_template_data: {
             contenu: message,
