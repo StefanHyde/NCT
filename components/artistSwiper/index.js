@@ -105,6 +105,8 @@ export default function artistSwiper() {
                     <div className="flex flex-col gap-4">
                         <h3 className="uppercase">Bertrand - Vert de gris, le handpoke, un univers en pointillé dans notre salon à
                             Strasbourg</h3>
+                        <Link href="https://www.instagram.com/vertdegris_ttt/"><GrInstagram
+                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
                         <p>C’est la fascination pour cet acte permanent, “figé dans la peau”, qui a mené Bertrand vers
                             le métier de tatoueur. Depuis 3 ans, il développe un <strong>univers ornemental aux lignes
                                 noires, élégantes et efficaces</strong>, qu’il aime tatouer sur des parties techniques
