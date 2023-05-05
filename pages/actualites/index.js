@@ -19,7 +19,7 @@ export default function Bertrand() {
 
             <div className="mt-18">
                 <Hero src={actuCover} alt={`image du salon de tatouage`} title={`NOS ACTUALITÉS`}
-                      description={`Toutes les actulités et nouveautés de notre salon de tatouage`}
+                      description={`Toutes les actualités et nouveautés de notre salon de tatouage`}
                       place={`xl:ml-40`}
                 />
             </div>
