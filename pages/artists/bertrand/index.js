@@ -27,9 +27,9 @@ export default function Bertrand() {
     return (
         <>
             <Head>
-                <title>Tatouage Géométrique à Strasbourg | Neon Cobra 🐍</title>
+                <title> Tatouage Handpoke à Strasbourg | Neon Cobra 🐍</title>
                 <meta name="description"
-                      content="Découvrez tout l'art du  tatouage géométrique à Strasbourg avec Éric de Neon Cobra. Avec des années d'expérience dans l'art du tatouage et une passion pour les motifs géométriques, Éric crée des tatouages uniques et sur mesure pour chaque client."/>
+                      content="Découvrez la beauté et l'originalité du tatouage Handpoke à Strasbourg avec Bertrand du salon de tatouage Néon Cobra. Avec son approche artisanale et son attention méticuleuse aux détails, Bertrand crée des tatouages personnalisés et uniques à la main, en utilisant des techniques traditionnelles qui garantissent un résultat durable et élégant. "/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
 
@@ -129,8 +129,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Certaines parties du corps
-                            offrent-elles une sensibilité différente au tatouage ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Certaines parties du corps
+                            offrent-elles une sensibilité différente au tatouage ?</h3>
                         <br/>
                         <p>Les surfaces du corps les moins sensibles sont celles où la peau est épaisse. Dans les zones
                             où <strong>la peau est fine et délicate</strong> comme l’aisselle, la cage thoracique ou
@@ -139,8 +139,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi la technique du
-                            tatouage handpoke est plus supportable ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi la technique du
+                            tatouage handpoke est plus supportable ?</h3>
                         <br/>
                         <p><strong>Le tatouage handpoke est moins douloureux </strong>car la peau n’est impactée que par
                             une seule aiguille. Une machine à tatouer comme le dermographe se compose de plusieurs
