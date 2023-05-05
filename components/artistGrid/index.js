@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 export default function artistGrid() {
     const artists = [
-        {name: "Éric", link: "/artists/eric/", img: "grid_eric.jpg"},
-        {name: "Richard", link: "/artists/richard/", img: "grid_richard.jpg"},
-        {name: "Jean Baptiste", link: "/artists/jb/", img: "grid_jb.jpg"},
-        {name: "Bertrand", link: "/artists/bertrand/", img: "grid_bertrand.jpg"},
+        {name: "Erico", link: "/artists/eric/", img: "grid_eric.jpg"},
+        {name: "UncleHo", link: "/artists/richard/", img: "grid_richard.jpg"},
+        {name: "JBMaglia", link: "/artists/jb/", img: "grid_jb.jpg"},
+        {name: "Vert de Gris", link: "/artists/bertrand/", img: "grid_bertrand.jpg"},
     ]
 
     return (

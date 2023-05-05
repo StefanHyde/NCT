@@ -20,13 +20,6 @@ export default function Footer() {
 
                 </div>
 
-                <div className="flex lg:place-self-start px-8">
-                    <p className="text-sm hover:text-secondary-500 ease-in-out duration-300">
-                        <Link href="/mentions">Mentions légales</Link>
-                    </p>
-
-                </div>
-
             </div>
         </footer>
     )
