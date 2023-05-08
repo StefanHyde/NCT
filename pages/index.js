@@ -141,9 +141,9 @@ export default function Home() {
                 </div>
                 <div className="w-full">
                     <iframe className="w-full p-0"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4724.537639365289!2d7.739572609531189!3d48.58433089420646!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c94ea5f4aef1%3A0x23baefb0375e3c62!2sNEON%20COBRA%20TATTOO!5e0!3m2!1sfr!2sfr!4v1682015604598!5m2!1sfr!2sfr"
-                            width="1440" height="440" allowFullScreen="" loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.378598043106!2d7.737650052244467!3d48.5834493456563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c94ea5f4aef1%3A0x23baefb0375e3c62!2sNEON%20COBRA%20TATTOO!5e0!3m2!1sfr!2sfr!4v1683565791129!5m2!1sfr!2sfr"
+                        width="1440" height="450" allowFullScreen="" loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
             </div>
