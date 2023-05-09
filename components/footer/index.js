@@ -6,7 +6,8 @@ export default function Footer() {
         <footer>
             <div
                 className="flex flex-col items-center pt-12 pb-8 text-neutrals-0 text-center bg-neutrals-1000 space-y-10">
-                <h4 className="font-scified text-2xl font-normal">NEON COBRA TATTOO</h4>
+                <Link href="/"><h4 className="font-scified text-2xl font-normal hover:text-secondary-500 ease-in-out duration-300">NEON COBRA TATTOO</h4></Link>
+
                 <p>
                     8 Rue de la Course <br/>
                     67000 STRASBOURG <br/>

@@ -37,7 +37,7 @@ export default function Richard() {
             <div className="mt-18">
                 <Hero src={imgRichard} alt={`photo de UncleHo`} title={`UNCLEHO`}
                       description={`Le tatouage néo-japonais, entre tradition et modernité à Strasbourg`}
-                      link={`https://www.instagram.com/uncle_ho_mitchmalone/?hl=fr`} place={`xl:ml-40`}
+                      link={`https://www.instagram.com/uncle_ho_mitchmalone/?hl=fr`} mail={'homer67@gmail.com'} place={`xl:ml-40`}
                 />
             </div>
 

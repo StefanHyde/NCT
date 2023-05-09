@@ -37,7 +37,7 @@ export default function Eric() {
             <div className="mt-18">
                 <Hero src={imgEric} alt={`photo de Erico`} title={`ERICO`}
                       description={`Le tatouage de style géométrique et dotwork, une forme d'art corporel unique à Strasbourg`}
-                      link={`https://www.instagram.com/eric_o_`} place={`xl:ml-40`}
+                      link={`https://www.instagram.com/eric_o_`} mail={'mailto:ericotattoo@yahoo.com'} place={`xl:ml-40`}
                 />
             </div>
 

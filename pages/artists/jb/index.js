@@ -15,9 +15,13 @@ export default function Jb() {
         "/img/artists/jb/IMG_20200119_171627ww.jpg",
         "/img/artists/jb/IMG_20210912_185012.jpg",
         "/img/artists/jb/IMG_20220219_151423(1).jpg",
+        "/img/artists/jb/jbdragon.jpg",
+        "/img/artists/jb/jbkaru.jpg",
         "/img/artists/jb/jon34.jpg",
         "/img/artists/jb/remi2.jpg",
         "/img/artists/jb/tigre3quart.jpg",
+        "/img/artists/jb/Kannondragon.jpg",
+        "/img/artists/jb/IMG-4977.jpg",
     ]
 
     return (
@@ -33,7 +37,7 @@ export default function Jb() {
             <div className="mt-18">
                 <Hero src={imgJb} alt={`photo de JbMaglia`} title={`JBMAGLIA`}
                       description={`Un salon de tatouage japonais traditionnel à Strasbourg`}
-                      link={`https://www.instagram.com/jbmaglia/?hl=fr`} place={`xl:ml-40`}
+                      link={`https://www.instagram.com/jbmaglia/?hl=fr`} mail={'mailto:jxbxtattoo@gmail.com'} place={`xl:ml-40`}
                 />
             </div>
 

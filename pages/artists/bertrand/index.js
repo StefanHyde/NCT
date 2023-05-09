@@ -37,7 +37,7 @@ export default function Bertrand() {
             <div className="mt-18">
                 <Hero src={imgBertrand} alt={`photo de Vert de gris`} title={`VERT DE GRIS`}
                       description={`Le tatouage handpoke, un art inspiré des méthodes de tatouage ancestrales à Strasbourg`}
-                      link={`https://www.instagram.com/vertdegris_ttt/`} place={`xl:ml-40`}
+                      link={`https://www.instagram.com/vertdegris_ttt/`} mail={'mailto:vertdegrice@gmail.com'} place={`xl:ml-40`}
                 />
             </div>
 
