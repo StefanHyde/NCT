@@ -23,7 +23,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col py-12 bg-neutrals-0 space-y-12">
-                <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">LE SHOP</h2>
+                <h3 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">LE SHOP</h3>
                 <div className="flex justify-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
@@ -48,8 +48,8 @@ export default function Home() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">4 artistes passionnés,
-                            réunis dans un tattoo shop unique à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">4 artistes passionnés,
+                            réunis dans un tattoo shop unique à Strasbourg</h3>
                         <br/>
                         <p>Notre salon de tatouage strasbourgeois rassemble <strong>4 personnalités du monde du
                             tattoo</strong>. Éric, Richard, Jean-Baptiste et Bertrand. Nos quatre <strong>artistes
@@ -61,8 +61,8 @@ export default function Home() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Les tattoos proposés chez
-                            Neon Cobra, salon de tatouage à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Les tattoos proposés chez
+                            Neon Cobra, salon de tatouage à Strasbourg</h3>
                         <br/>
                         <p>Japonais traditionnel, néo japonais, néo traditionnel, géométrique ou encore dotwork et
                             handpoke, notre tattoo shop propose une multitude d’univers graphiques et de techniques ; un
@@ -75,8 +75,8 @@ export default function Home() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Dans notre studio Neon
-                            Cobra à Strasbourg, chaque tatouage est unique, son prix aussi</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Dans notre studio Neon
+                            Cobra à Strasbourg, chaque tatouage est unique, son prix aussi</h3>
                         <br/>
                         <p>Le <strong>prix de chaque tatouage</strong> dépend bien sûr de sa taille, du volume et du
                             temps passé. Nous aimons discuter et faire mûrir un projet avec nos clients. Au studio Neon
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
 
             <div id={"artists"} className="flex flex-col items-center py-12 bg-neutrals-1000 space-y-12">
-                <h2 className="font-scified text-3xl font-normal text-neutrals-0 text-center">LES ARTISTES</h2>
+                <h3 className="font-scified text-3xl font-normal text-neutrals-0 text-center">LES ARTISTES</h3>
                 <div className="p-8 w-auto">
                     {artistGrid()}
                 </div>
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
 
             <div id={"contact"} className="flex flex-col py-12 bg-neutrals-0 space-y-8">
-                <h2 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">NOUS CONTACTER</h2>
+                <h3 className="font-scified text-3xl font-normal text-neutrals-1000 text-center">NOUS CONTACTER</h3>
 
                 <div className="flex justify-center">
                     <p className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">Une demande
@@ -126,8 +126,8 @@ export default function Home() {
 
             <div className="flex flex-col bg-neutrals-1000 ">
                 <div className="flex flex-col items-center space-y-8 py-12 font-poppins text-center text-neutrals-0">
-                    <h2 className="font-poppins text-center text-neutrals-0 uppercase">Venir au salon de tatouage Neon
-                        Cobra à Strasbourg</h2>
+                    <h3 className="font-poppins text-center text-neutrals-0 uppercase">Venir au salon de tatouage Neon
+                        Cobra à Strasbourg</h3>
                     <p className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">Le tatouage,
                         c’est avant tout une rencontre. Notre <strong>salon de tatouage est situé 8, rue de la Course à
                             Strasbourg</strong>. La rue de la Course s’étend entre le boulevard de Nancy et le quai

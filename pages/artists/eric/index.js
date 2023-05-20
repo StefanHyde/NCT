@@ -61,8 +61,8 @@ export default function Eric() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage géométrique,
-                            l'art de la précision et de l'épure</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage géométrique,
+                            l'art de la précision et de l'épure</h3>
                         <br/>
                         <p>Le tatouage géométrique n’est pas qu’une composition basique dans laquelle entre des <strong>formes
                             géométriques ou symétriques</strong>. Cet art corporel mêle un entrelac sophistiqué et
@@ -74,9 +74,9 @@ export default function Eric() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage de style
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage de style
                             géométrique et graphique, des éléments structurés qui abritent une forme d'expression
-                            personnelle</h2>
+                            personnelle</h3>
                         <br/>
                         <p>Contrairement au tatouage traditionnel, le tattoo géométrique <strong>interprète des éléments
                             du monde naturel</strong>. Animaux, plantes ou formes géométriques stylisées deviennent des
@@ -100,8 +100,8 @@ export default function Eric() {
                 <div className="flex justify-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Les principaux symboles
-                            présents dans les tatouages de style géométrique ou graphique</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Les principaux symboles
+                            présents dans les tatouages de style géométrique ou graphique</h3>
                         <br/>
                         <p>Les motifs et formes que l’on retrouve régulièrement dans les tatouages géométriques,
                             véhiculent <strong>des motifs symboliques</strong>. Voici les symboles les plus couramment
@@ -135,8 +135,8 @@ export default function Eric() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">À Strasbourg, le dotwork
-                            s'invite dans des tatouages aux compositions géométriques</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">À Strasbourg, le dotwork
+                            s'invite dans des tatouages aux compositions géométriques</h3>
                         <br/>
                         <p>Lorsqu’une ombre est fine, légère et crée un effet poudré, il y a de fortes chances qu’elle
                             soit réalisée avec la technique du dotwork. Le dotwork est une <strong>technique de tatouage
@@ -149,8 +149,8 @@ export default function Eric() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Qu'est-ce qui caractérise
-                            le tatouage de style graphique ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Qu'est-ce qui caractérise
+                            le tatouage de style graphique ?</h3>
                         <br/>
                         <p>Le style graphique en tatouage est un style relativement récent popularisé par des artistes
                             tatoueurs issus d’écoles d’arts appliqués. Sur un design tattoo graphique, on remarque
@@ -175,8 +175,8 @@ export default function Eric() {
                 <div className="flex justify-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
-                        <h2 className="font-poppins text-center text-neutrals-0 uppercase">Comment choisir un design de
-                            tatouage géométrique ou dotwork à Strasbourg ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-0 uppercase">Comment choisir un design de
+                            tatouage géométrique ou dotwork à Strasbourg ?</h3>
                         <br/>
                         <p>Vous aimez le style géométrique abstrait ? À Strasbourg, au studio Neon Cobra vous êtes au
                             bon endroit. Voici quelques conseils pour vous aider à choisir un design de tatouage
@@ -211,8 +211,8 @@ export default function Eric() {
                 <div className="flex justify-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Eric, tatoueur de style
-                            graphique, géométrique et dotwork au salon Neon Cobra à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Eric, tatoueur de style
+                            graphique, géométrique et dotwork au salon Neon Cobra à Strasbourg</h3>
                         <br/>
                         <p>Membre fondateur du studio Neon Cobra à Strasbourg, Eric est un <strong>tatoueur
                             expérimenté</strong> qui maîtrise les techniques de tatouage de style graphique, géométrique

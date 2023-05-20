@@ -61,8 +61,8 @@ export default function Richard() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">L'héritage du style
-                            japonais traditionnel dans le tatouage néo-japonais</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">L'héritage du style
+                            japonais traditionnel dans le tatouage néo-japonais</h3>
                         <br/>
                         <p>Au Japon, le tatouage traditionnel est exécuté à la main avec des aiguilles fines, de l’encre
                             noire et des pigments de couleur. Aujourd'hui, <strong>le tatoueur utilise un
@@ -74,8 +74,8 @@ export default function Richard() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage Japonais, des
-                            éléments chargés de symboles et conventions repris par les tatoueurs</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage Japonais, des
+                            éléments chargés de symboles et conventions repris par les tatoueurs</h3>
                         <br/>
                         <p>Dans un <strong>tatouage japonais traditionnel Irezumi</strong>, on n’assemble pas des motifs
                             au hasard. Les éléments ne doivent être associés que s’ils sont compatibles. Les Kumo,
@@ -92,7 +92,7 @@ export default function Richard() {
             </div>
 
             <div className="flex flex-col items-center py-12 bg-neutrals-1000 space-y-12">
-                <h2 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h2>
+                <h3 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h3>
                 <ImgGallery images={images}/>
             </div>
 
@@ -100,8 +100,8 @@ export default function Richard() {
                 <div className="flex justify-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">À Strasbourg, le tattoo
-                            néo-japonais développe un style de tatouage personnel</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">À Strasbourg, le tattoo
+                            néo-japonais développe un style de tatouage personnel</h3>
                         <br/>
                         <p>Le tatouage Japonais est <strong>un style de tatouage très populaire</strong>. Il traverse
                             les modes grâce à son esthétique et son répertoire riche en symboles. Le tatouage
@@ -123,8 +123,8 @@ export default function Richard() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage néo-japonais,
-                            un art qui concilie l’histoire personnelle et celle du Japon</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage néo-japonais,
+                            un art qui concilie l’histoire personnelle et celle du Japon</h3>
                         <br/>
                         <p>Le tatouage néo-japonais puise dans le tattoo Japonais, une grande variété de designs et de
                             styles. <strong>L’appropriation de cet art ancestral</strong>, permet d’inscrire l’histoire
@@ -141,8 +141,8 @@ export default function Richard() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
-                        <h2 className="font-poppins text-center text-neutrals-0 uppercase">Le tatouage néo-japonais au
-                            croisement de l'art et de la culture urbaine</h2>
+                        <h3 className="font-poppins text-center text-neutrals-0 uppercase">Le tatouage néo-japonais au
+                            croisement de l'art et de la culture urbaine</h3>
                         <br/>
                         <p>Les gravures Ukiyo-e étaient réalisées sur bois. Les tatoueurs traditionnels Irezumi ont
                             repris ces images et les ont transférées sur le corps humain. Ils ont ainsi créé un
@@ -157,8 +157,8 @@ export default function Richard() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
-                        <h2 className="font-poppins text-center text-neutrals-0 uppercase">Quelques motifs de tatouage
-                            traditionnels disponibles chez Neon Cobra à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-0 uppercase">Quelques motifs de tatouage
+                            traditionnels disponibles chez Neon Cobra à Strasbourg</h3>
                         <br/>
                         <p>Véritable œuvre d’art, le tatouage traditionnel japonais demande <strong>de la patience et de
                             la dextérité</strong>. Dans l’Irezumi, chaque symbole représente sa propre signification,
@@ -181,8 +181,8 @@ export default function Richard() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Du graff au dermographe,
-                            Richard, un artiste tatoueur à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Du graff au dermographe,
+                            Richard, un artiste tatoueur à Strasbourg</h3>
                         <br/>
                         <p>Richard dit Uncle_ho, possède une expérience de 20 années dans le Street art. Passer de
                             l'univers urbain à l’intimité du corps ne lui a pas posé de problème. Le <strong>tatouage
@@ -198,8 +198,8 @@ export default function Richard() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi confier son
-                            tatouage néo-japonais à Richard chez Neon Cobra à Strasbourg ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi confier son
+                            tatouage néo-japonais à Richard chez Neon Cobra à Strasbourg ?</h3>
                         <br/>
                         <p>Préparez votre idée de tatouage néo-japonais. Recherchez des designs de tatouages dans le
                             style néo-japonais qui vous plaisent. Consultez <strong>les travaux d’<Link

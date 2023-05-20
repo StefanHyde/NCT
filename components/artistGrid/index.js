@@ -16,8 +16,8 @@ export default function artistGrid() {
 
                         <Image src={`/img/artists/${artist.img.toString()}`} width={300}
                                height={300} alt={'les artistes de Neon Cobra'} className="group-hover:blur-sm opacity-80 ease-in-out duration-500"/>
-                        <h3
-                            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-scified text-center text-2xl uppercase text-neutrals-0">{artist.name}</h3>
+                        <h4
+                            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-scified text-center text-2xl uppercase text-neutrals-0">{artist.name}</h4>
 
                     </a>
                 )

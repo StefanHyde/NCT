@@ -25,8 +25,8 @@ export default function Bertrand() {
             </div>
 
             <div className="flex flex-col py-12 bg-neutrals-0 space-y-12">
-                <h2 className="p-6 font-scified text-3xl font-normal text-neutrals-1000 text-center">Nos conseils pour
-                    choisir un bon tatoueur</h2>
+                <h3 className="p-6 font-scified text-3xl font-normal text-neutrals-1000 text-center">Nos conseils pour
+                    choisir un bon tatoueur</h3>
                 <div className="flex flex-col  items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
@@ -37,8 +37,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Comment distinguer les
-                            mauvais tatoueurs des bons artistes ?</h2>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">Comment distinguer les
+                            mauvais tatoueurs des bons artistes ?</h4>
                         <br/>
                         <p>Pour un premier projet de tatouage, la <strong>recherche d'un bon tatoueur</strong> n'est pas
                             évidente. Si vous ne profitez pas du bouche-à-oreille pour vous conseiller un shop en
@@ -57,8 +57,8 @@ export default function Bertrand() {
                 <div className="flex flex-col  items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le matériel de tatouage
-                            utilisé par un tatoueur professionnel</h3>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">Le matériel de tatouage
+                            utilisé par un tatoueur professionnel</h4>
                         <br/>
                         <p>Le <strong>matériel d'un tatoueur</strong> est à usage unique, sauf les machines (gants,
                             aiguilles, buses, caps d'encre, etc.). Vous pouvez être frappé en entrant dans un studio de
@@ -68,8 +68,8 @@ export default function Bertrand() {
                             usage unique. Il le change après chaque client pour éviter tout risque infectieux.</p>
                     </div>
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">La réglementation au
-                            service de l'art du tatouage</h3>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">La réglementation au
+                            service de l'art du tatouage</h4>
                         <br/>
                         <p>Un mauvais tatoueur est prêt à tatouer n'importe qui. Si vous rencontrez un tatoueur capable
                             de tatouer un mineur sans autorisation parentale, fuyez. Il existe des règles dans le monde
@@ -88,8 +88,8 @@ export default function Bertrand() {
                 <div className="flex flex-col  items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Rencontrez les tatoueurs
-                            en salon ou en studio</h3>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">Rencontrez les tatoueurs
+                            en salon ou en studio</h4>
                         <br/>
                         <p>Pour choisir un bon tatoueur, dépassez les écrans et les réseaux sociaux pour aller à la
                             rencontre des artistes. Participez à des salons de tatouage ou rendez-vous directement au
@@ -103,8 +103,8 @@ export default function Bertrand() {
                             échange.</p>
                     </div>
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le choix du tatoueur en
-                            fonction du prix des tatouages</h3>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">Le choix du tatoueur en
+                            fonction du prix des tatouages</h4>
                         <br/>
                         <p>Choisir un bon tatoueur ne se fait pas en fonction du <strong>prix des tatouages</strong>. Un
                             mauvais tatoueur peut pratiquer des tarifs excessifs alors qu'un très bon tatoueur peut
@@ -128,8 +128,8 @@ export default function Bertrand() {
                 <div className="flex flex-col  items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Choisir un spécialiste
-                            dans son style de tatouage</h2>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">Choisir un spécialiste
+                            dans son style de tatouage</h4>
                         <br/>
                         <p>Vous rêvez d'un tribal sur le dos ? Vous souhaitez plutôt un <a href="#geometrique">tattoo
                             géométrique</a> ou des motifs floraux sur votre corps ? Vous envisagez un <Link
@@ -140,8 +140,8 @@ export default function Bertrand() {
                                 spécialistes de leur genre</strong></p>
                     </div>
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Tattoo en couleurs ou noir
-                            et gris ?</h3>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">Tattoo en couleurs ou noir
+                            et gris ?</h4>
                         <br/>
                         <p>Certains tatoueurs se spécialisent dans les <strong>tatouages en couleurs</strong>, d'autres
                             préfèrent ne travailler que les encres noires. Un bon tatoueur peut refuser votre projet de
@@ -153,8 +153,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Les styles de tatouages
-                            réalisés par les tatoueurs</h3>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">Les styles de tatouages
+                            réalisés par les tatoueurs</h4>
                         <br/>
                         <p>Pour choisir un bon tatoueur, orientez-vous vers un artiste qui réalise le style que vous
                             souhaitez. Vous pouvez désirer un <Link
@@ -170,8 +170,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">La technique de tatouage
-                            proposé par l'artiste</h2>
+                        <h4 className="font-poppins text-center text-neutrals-1000 uppercase">La technique de tatouage
+                            proposé par l'artiste</h4>
                         <br/>
                         <p>Les styles des tatoueurs ne concernent pas uniquement les dessins. La <strong>technique de
                             tatouage</strong> devient également une spécialité. Le <Link

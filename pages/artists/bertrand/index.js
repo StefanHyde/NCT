@@ -59,8 +59,8 @@ export default function Bertrand() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Comment réalise-t-on un
-                            tatouage handpoke ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Comment réalise-t-on un
+                            tatouage handpoke ?</h3>
                         <br/>
                         <p>La pratique du hand poked tattoo est souvent associée au Tebori, l’<strong>art traditionnel
                             du tatouage</strong>. Au Japon, le tatouage Tebori est entièrement réalisé à la main à
@@ -72,8 +72,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">En quoi la technique du
-                            handpoke diffère-t-elle d’un tatouage réalisé à l’aide d’une machine ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">En quoi la technique du
+                            handpoke diffère-t-elle d’un tatouage réalisé à l’aide d’une machine ?</h3>
                         <br/>
                         <p>Le tatoueur handpoke, en réalisant à l’aiguille un tatouage point par point, dose l’ancrage
                             et l’intensité du motif. Pour créer une ligne, la technique du tatoueur handpoke consiste
@@ -91,7 +91,7 @@ export default function Bertrand() {
             </div>
 
             <div className="flex flex-col items-center py-12 bg-neutrals-1000 space-y-12">
-                <h2 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h2>
+                <h3 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h3>
                 <ImgGallery images={images}/>
             </div>
 
@@ -99,8 +99,8 @@ export default function Bertrand() {
                 <div className="flex justify-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi faut-il mieux ne
-                            pas réaliser soi-même son tatouage handpoke ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi faut-il mieux ne
+                            pas réaliser soi-même son tatouage handpoke ?</h3>
                         <br/>
                         <p>Par son apparente facilité d'exécution, les tatouages handpoke gagnent en popularité. Si vous
                             réalisez votre propre tatouage handpoke <strong>sans bénéficier de l’expérience d’un
@@ -120,8 +120,8 @@ export default function Bertrand() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Faire réaliser à
-                            Strasbourg un tatouage handpoke est-il douloureux ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Faire réaliser à
+                            Strasbourg un tatouage handpoke est-il douloureux ?</h3>
                         <br/>
                         <p>Se faire tatouer n’est pas une partie de plaisir même si vous supportez stoïquement la
                             douleur. Toutefois, tatouer certaines zones du corps est plus douloureux que d'autres. La
@@ -149,8 +149,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Sur quelles parties du
-                            corps peut-on faire un handpoke tattoo ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Sur quelles parties du
+                            corps peut-on faire un handpoke tattoo ?</h3>
                         <br/>
                         <p>Le handpoke tattoo s’applique sur toutes les parties du corps. La technique étant plus
                             douce, <strong>elle convient particulièrement aux parties du corps sensibles</strong> comme
@@ -170,8 +170,8 @@ export default function Bertrand() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
-                        <h2 className="font-poppins text-center text-neutrals-0 uppercase">Peut-on réaliser tous les
-                            motifs avec un hand poked tattoo ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-0 uppercase">Peut-on réaliser tous les
+                            motifs avec un hand poked tattoo ?</h3>
                         <br/>
                         <p>Un tatouage handpoke est beaucoup <strong>plus long à réaliser </strong>qu’un tatouage au
                             dermographe. Néanmoins, toutes les tailles de tatouages sont envisageables. Certains motifs
@@ -182,8 +182,8 @@ export default function Bertrand() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
-                        <h2 className="font-poppins text-center text-neutrals-0 uppercase">Le tatouage handpoke, une
-                            expérience spirituelle ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-0 uppercase">Le tatouage handpoke, une
+                            expérience spirituelle ?</h3>
                         <br/>
                         <p>Se faire tatouer à la main est une expérience différente. C'est une expérience zen et
                             méditative. Le bruit de la machine à tatouer fait place au silence. Pour Bertrand à
@@ -199,8 +199,8 @@ export default function Bertrand() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Bertrand, de la
-                            linogravure au tatouage handpoke à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Bertrand, de la
+                            linogravure au tatouage handpoke à Strasbourg</h3>
                         <br/>
                         <p>Bertrand a choisi de s’installer dans la capitale européenne. L’Alsace offre un incroyable
                             mélange de cultures et d’expressions. Bertrand s’est passionné pour la technique du tatouage

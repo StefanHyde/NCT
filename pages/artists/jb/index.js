@@ -62,8 +62,8 @@ export default function Jb() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">La petite Histoire du
-                            tatouage japonais traditionnel</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">La petite Histoire du
+                            tatouage japonais traditionnel</h3>
                         <br/>
                         <p>Le <strong>tatouage japonais traditionnel </strong>est un art à part entière avec ses motifs,
                             sa technique et ses maîtres. Un art que maîtrise aujourd’hui <strong>Jean-Baptiste chez Neon
@@ -91,7 +91,7 @@ export default function Jb() {
             </div>
 
             <div className="flex flex-col items-center py-12 bg-neutrals-1000 space-y-12">
-                <h2 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h2>
+                <h3 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h3>
                 <ImgGallery images={images}/>
             </div>
 
@@ -116,8 +116,8 @@ export default function Jb() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage traditionnel,
-                            des dessins inspirés par les mythes et légendes du Japon </h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage traditionnel,
+                            des dessins inspirés par les mythes et légendes du Japon </h3>
                         <br/>
                         <p>Les motifs de dessins propres au tatouage Irezumi sont restés inchangés à travers les
                             siècles. Le tatouage traditionnel japonais est <strong>un art très codifié</strong>. Les
@@ -130,8 +130,8 @@ export default function Jb() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Sur quelle partie du corps
-                            peut-on faire un tatouage japonais traditionnel ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Sur quelle partie du corps
+                            peut-on faire un tatouage japonais traditionnel ?</h3>
                         <br/>
                         <p>Les tatouages japonais traditionnels étaient réalisés à l’aide d’un Tebor, un impressionnant
                             bâton de bambou muni d’aiguilles. L’Irezumi se pratique aujourd’hui à l’aide d’<strong>un
@@ -150,8 +150,8 @@ export default function Jb() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
-                        <h2 className="font-poppins text-center text-neutrals-0 uppercase">Les motifs de prédilection de
-                            Jean-Baptiste, un tatoueur au style japonais traditionnel à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-0 uppercase">Les motifs de prédilection de
+                            Jean-Baptiste, un tatoueur au style japonais traditionnel à Strasbourg</h3>
                         <br/>
                         <p>Parmi les tatoueurs passionnés de tatouage japonais qui ont choisi de s’installer en Alsace
                             dans la ville du Parlement européen, Jean-Baptiste est un expert. <strong>Flash tattoo ou
@@ -163,8 +163,8 @@ export default function Jb() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
-                        <h2 className="font-poppins text-center text-neutrals-0 uppercase">Quelques motifs de tatouage
-                            traditionnels disponibles chez Neon Cobra à Strasbourg</h2>
+                        <h3 className="font-poppins text-center text-neutrals-0 uppercase">Quelques motifs de tatouage
+                            traditionnels disponibles chez Neon Cobra à Strasbourg</h3>
                         <br/>
                         <p>Véritable œuvre d’art, le tatouage traditionnel japonais demande <strong>de la patience et de
                             la dextérité</strong>. Dans l’Irezumi, chaque symbole représente sa propre signification,
@@ -187,8 +187,8 @@ export default function Jb() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi choisir un
-                            tatouage japonais traditionnel avec Jean-Baptiste à Strasbourg ?</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi choisir un
+                            tatouage japonais traditionnel avec Jean-Baptiste à Strasbourg ?</h3>
                         <br/>
                         <p>Passionné par le dessin et le tatouage, Jean-Baptiste tatoue depuis plus de 15 ans. Dans la
                             capitale de l'Europe, au plus proche de la demande de ses clients, il sait <strong>composer
@@ -201,8 +201,8 @@ export default function Jb() {
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h2 className="font-poppins text-center text-neutrals-1000 uppercase">Comment se faire tatouer
-                            par Jean-Baptiste chez Neon Cobra à Strasbourg en Alsace</h2>
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Comment se faire tatouer
+                            par Jean-Baptiste chez Neon Cobra à Strasbourg en Alsace</h3>
                         <br/>
                         <p>Venez concevoir votre <strong>projet de</strong> <strong>tatouage japonais
                             traditionnel</strong> chez Neon Cobra. Notre équipe vous reçoit 8, rue de la course à
