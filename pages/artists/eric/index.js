@@ -53,7 +53,7 @@ export default function Eric() {
                             designs uniques. Il élabore des designs extrêmement travaillés dans un style géométrique et
                             graphique, qu’il propose en tattoo adapté à la zone de votre choix. Pour un projet
                             de <strong>tatouage géométrique à Strasbourg</strong>, Eric est à votre écoute chez Neon
-                            Cobra, salon de tatouage et de piercing tout près de la gare à Strasbourg. </p>
+                            Cobra, salon de tatouage tout près de la gare à Strasbourg. </p>
                     </div>
                 </div>
 

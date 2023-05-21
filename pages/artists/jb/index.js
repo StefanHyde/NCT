@@ -47,13 +47,13 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <p>Plus communément appelé Irezumi, le tatouage japonais traditionnel est un style de tatouage
                             qui connaît un grand succès dans le monde du tatouage en France. Le tatoueur doit posséder
-                            une maîtrise totale de cet art qui s’étend sur une grande partie du corps voire sur le corps
+                            une maîtrise de cet art qui s’étend sur une grande partie du corps voire sur le corps
                             en entier. Jean-Baptiste s’est spécialisé dans le <strong>tatouage japonais traditionnel à
                                 Strasbourg</strong>. Tatoueur passionné par le dessin et le tattoo depuis l’adolescence,
                             il puise son inspiration dans l’estampe, la peinture et la bande dessinée. Dans notre salon,
-                            il propose des tatouages en totale adéquation avec la personnalité de ses clients. Quels
+                            il propose des tatouages en adéquation avec la personnalité de ses clients. Quels
                             sont les significations et symboles du tatouage japonais ? Sur quelle partie du corps
-                            peut-on se faire tatouer ? Un art du tatouage parfaitement maîtrisé par Jean-Baptiste chez
+                            peut-on se faire tatouer ? Un art du tatouage pratiqué par Jean-Baptiste chez
                             Neon Cobra, salon de tatouage et piercing à Strasbourg.</p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ export default function Jb() {
                             tatouage japonais traditionnel</h3>
                         <br/>
                         <p>Le <strong>tatouage japonais traditionnel </strong>est un art à part entière avec ses motifs,
-                            sa technique et ses maîtres. Un art que maîtrise aujourd’hui <strong>Jean-Baptiste chez Neon
+                            sa technique et ses maîtres. Un art que pratique aujourd’hui <strong>Jean-Baptiste chez Neon
                                 Cobra</strong> dans la capitale européenne. L’Irezumi, le tatouage japonais
                             traditionnel, apparaît à l'ère Edo, au début du 17e siècle. Il s’appuie sur L'ukiyo-e, un
                             mouvement qui privilégie les sujets du quotidien. Le tatouage a longtemps été une marque qui
@@ -80,7 +80,7 @@ export default function Jb() {
                         <br/>
                         <p>Les classes les plus aisées de la société japonaise peuvent porter le kimono. Le petit
                             peuple, ouvriers du bâtiment et porteurs "Jinrikisha ", travaille le plus souvent dans la
-                            rue et <strong>torse nu</strong>. Le <i>suidoken </i>est un roman d’aventures Chinois qui,
+                            rue et <strong>torse nu</strong>. Le <i>suikoden </i>est un roman d’aventures Chinois qui,
                             par ses héros tatoués sur tout le corps, <strong>popularise le tatouage</strong>. Avec le
                             tatouage, à défaut d'habits, le corps se pare de motifs gravés sur la peau,<strong> la mode
                                 des tatouages se répand.</strong></p>
@@ -125,15 +125,14 @@ export default function Jb() {
                             composition. Des personnages (déesses et démons), animaux, éléments floraux
                             viennent <strong>compléter harmonieusement la</strong><strong> composition</strong>. Ces
                             éléments s’associent selon une grille de lecture, <strong>une composition codifiée que les
-                                tatoueurs doivent respecter. </strong>À Strasbourg, Jean-Baptiste maîtrise cet art à la
-                            perfection.</p>
+                                tatoueurs doivent respecter. </strong>À Strasbourg, Jean-Baptiste se spécialise dans cet art.</p>
                     </div>
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Sur quelle partie du corps
                             peut-on faire un tatouage japonais traditionnel ?</h3>
                         <br/>
-                        <p>Les tatouages japonais traditionnels étaient réalisés à l’aide d’un Tebor, un impressionnant
+                        <p>Les tatouages japonais traditionnels étaient réalisés à l’aide d’un Tebori, un impressionnant
                             bâton de bambou muni d’aiguilles. L’Irezumi se pratique aujourd’hui à l’aide d’<strong>un
                                 dermographe</strong>. Si la technique a évolué, l’hygiène reste parfaitement maîtrisée
                             au studio Neon Cobra à Strasbourg. <strong>L’Irezumi est un tatouage imposant</strong>, il
@@ -153,12 +152,11 @@ export default function Jb() {
                         <h3 className="font-poppins text-center text-neutrals-0 uppercase">Les motifs de prédilection de
                             Jean-Baptiste, un tatoueur au style japonais traditionnel à Strasbourg</h3>
                         <br/>
-                        <p>Parmi les tatoueurs passionnés de tatouage japonais qui ont choisi de s’installer en Alsace
-                            dans la ville du Parlement européen, Jean-Baptiste est un expert. <strong>Flash tattoo ou
+                        <p><strong>Flash tattoo ou
                                 design complexe</strong>, il sait trouver la bonne taille et le bon positionnement du
                             tatouage. Jean-Baptiste choisit les éléments de fond du projet associés à des figures
                             qui <strong>respectent les codes esthétiques du</strong> <strong>tatouage traditionnel
-                                japonais</strong>. Ses années de pratique font de Jean-Baptiste, une référence du
+                                japonais</strong>. Ses années de pratique font de Jean-Baptiste, une des référence du
                             tatouage à Strasbourg.</p>
                     </div>
 
@@ -190,7 +188,7 @@ export default function Jb() {
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi choisir un
                             tatouage japonais traditionnel avec Jean-Baptiste à Strasbourg ?</h3>
                         <br/>
-                        <p>Passionné par le dessin et le tatouage, Jean-Baptiste tatoue depuis plus de 15 ans. Dans la
+                        <p>Passionné par le dessin et le tatouage, Jean-Baptiste tatoue depuis 2009. Dans la
                             capitale de l'Europe, au plus proche de la demande de ses clients, il sait <strong>composer
                                 des projets de tatouages </strong>qui leur correspondent. Ensemble, vous élaborez le
                             projet tattoo selon le style choisi et décidez de son emplacement. C'est un travail

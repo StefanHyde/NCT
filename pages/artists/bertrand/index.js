@@ -77,7 +77,7 @@ export default function Bertrand() {
                         <br/>
                         <p>Le tatoueur handpoke, en réalisant à l’aiguille un tatouage point par point, dose l’ancrage
                             et l’intensité du motif. Pour créer une ligne, la technique du tatoueur handpoke consiste
-                            à <strong>créer une série de petits points</strong> qu’il relie en répétant le geste.et les
+                            à <strong>créer une série de petits points</strong> qu’il relie en répétant le geste et les
                             coups d’aiguilles. Ainsi, il dose précisément la quantité d'encre, l'intensité du trait ou
                             crée un effet d’ombre. Avec un dermographe, l’appareil à tatouer électrique, la main guide
                             le trait mais <strong>ne maîtrise pas l’angle de pénétration </strong>ou la profondeur du
@@ -142,8 +142,7 @@ export default function Bertrand() {
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi la technique du
                             tatouage handpoke est plus supportable ?</h3>
                         <br/>
-                        <p><strong>Le tatouage handpoke est moins douloureux </strong>car la peau n’est impactée que par
-                            une seule aiguille. Une machine à tatouer comme le dermographe se compose de plusieurs
+                        <p><strong>Le tatouage handpoke est moins douloureux </strong>car la peau est impactée par peu d'aller-retour. Une machine à tatouer comme le dermographe se compose de plusieurs
                             aiguilles qui piquent à grande vitesse. La peau étant moins agressée, la cicatrisation est
                             plus rapide. Toutefois, les soins post tattoo restent les mêmes.</p>
                     </div>

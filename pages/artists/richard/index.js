@@ -51,8 +51,7 @@ export default function Richard() {
                             composition du tatouage intègre de nombreux détails ou références personnelles pour créer un
                             design unique. Faites réaliser votre <strong>tatouage néo-japonais à Strasbourg</strong>, au
                             salon de tatouage Neon Cobra près de la gare. Richard dit Uncle_ho, tatoueur au style
-                            néo-japonais, vous accueille pour étudier votre projet. Richard s’est installé dans la
-                            capitale européenne pour vous proposer des créations personnelles, vibrantes et colorées.
+                            néo-japonais, vous accueille pour étudier votre projet. Richard vous proposera des créations personnelles, vibrantes et colorées.
                         </p>
                     </div>
                 </div>
