@@ -1,10 +1,13 @@
 import Head from 'next/head'
+import Link from "next/link";
+import Image from 'next/image'
 import Hero from '@/components/hero'
 import swiperHome from "@/components/swiper";
 import artistSwiper from "@/components/artistSwiper";
 import artistGrid from "@/components/artistGrid";
 import Contact from "@/components/contact";
 import imgBanner from '../public/img/NCT_banner_home.jpg';
+import imgMaps from '../public/img/maps.png';
 
 export default function Home() {
     return (
@@ -139,11 +142,11 @@ export default function Home() {
                     Référence en Alsace, le <strong>studio de tatouage Neon Cobra</strong> répond à toutes les
                         demandes, dans une ambiance chaleureuse et bienveillante.</p>
                 </div>
-                <div className="w-full">
-                    <iframe className="w-full p-0"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.378598043106!2d7.737650052244467!3d48.5834493456563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c94ea5f4aef1%3A0x23baefb0375e3c62!2sNEON%20COBRA%20TATTOO!5e0!3m2!1sfr!2sfr!4v1683565791129!5m2!1sfr!2sfr"
-                        width="1440" height="450" allowFullScreen="" loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div className="w-full p-0">
+                    <Link href="https://goo.gl/maps/BGvpMJmr4DyypQAp6?coh=178573&entry=tt">
+                        <Image src={imgMaps} alt={'accès shop'}  />
+                    </Link>
                 </div>
 
             </div>

@@ -49,10 +49,10 @@ export default function Eric() {
                             emblématique de l'Est de la France. Il puise son inspiration dans un univers mâtiné de Métal
                             Hurlant et d’Architecture brutale pour créer des motifs graphiques et géométriques. Un
                             univers qu’il réinterprète à l’infini, mêlant tatouage dotwork et éléments black tattoo.
-                            Eric utilise des lignes claires, des couleurs vives et des motifs abstraits pour créer des
+                            Erico utilise des lignes claires, des couleurs vives et des motifs abstraits pour créer des
                             designs uniques. Il élabore des designs extrêmement travaillés dans un style géométrique et
                             graphique, qu’il propose en tattoo adapté à la zone de votre choix. Pour un projet
-                            de <strong>tatouage géométrique à Strasbourg</strong>, Eric est à votre écoute chez Neon
+                            de <strong>tatouage géométrique à Strasbourg</strong>, Erico est à votre écoute chez Neon
                             Cobra, salon de tatouage tout près de la gare à Strasbourg. </p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ export default function Eric() {
                         <br/>
                         <p>Contrairement au tatouage traditionnel, le tattoo géométrique <strong>interprète des éléments
                             du monde naturel</strong>. Animaux, plantes ou formes géométriques stylisées deviennent des
-                            figures totémiques au style intemporel. À Strasbourg, Eric partage sa vision du tatouage
+                            figures totémiques au style intemporel. À Strasbourg, Erico partage sa vision du tatouage
                             par <strong>une esthétique moderne et épurée</strong>. Il utilise des couleurs simples et
                             contrastées pour créer de superbes effets visuels. La technique du dotwork ajoute de la
                             profondeur au design. Le tatoueur obtient un effet de dégradé et crée une texture subtile.
@@ -182,7 +182,7 @@ export default function Eric() {
                             bon endroit. Voici quelques conseils pour vous aider à choisir un design de tatouage
                             géométrique ou dotwork.</p>
                         <ul className="pt-6">
-                            <li>Si vous n'avez pas d'idée précise, parcourez les comptes Instagram d'Eric
+                            <li>Si vous n'avez pas d'idée précise, parcourez les comptes Instagram d'Erico
                                 <Link href="https://www.instagram.com/hallowed.screams/"
                                       className="hover:text-primary-500 ease-in-out duration-300"> @hallowed.screams</Link>, <Link
                                     href="https://www.instagram.com/eric_o_/"
@@ -198,7 +198,7 @@ export default function Eric() {
                             </li>
                         </ul>
                         N'hésitez pas à demander conseil à un artiste de tatouage expérimenté dans le style
-                        géométrique et dotwork comme Eric. Il pourra vous donner des conseils et vous montrer des
+                        géométrique et dotwork comme Erico. Il pourra vous donner des conseils et vous montrer des
                         exemples de designs pour vous aider à visualiser le résultat final
 
                     </div>
@@ -211,21 +211,21 @@ export default function Eric() {
                 <div className="flex justify-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Eric, tatoueur de style
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Erico, tatoueur de style
                             graphique, géométrique et dotwork au salon Neon Cobra à Strasbourg</h3>
                         <br/>
-                        <p>Membre fondateur du studio Neon Cobra à Strasbourg, Eric est un <strong>tatoueur
+                        <p>Membre fondateur du studio Neon Cobra à Strasbourg, Erico est un <strong>tatoueur
                             expérimenté</strong> qui maîtrise les techniques de tatouage de style graphique, géométrique
                             et dotwork. Il crée <strong>des designs précis, complexes et détaillés</strong>, en
                             s'assurant que le tatouage est réalisé dans les meilleures conditions d'hygiène. Il utilise
                             des encres et des aiguilles stériles pour un tatouage de qualité. Le studio Neon Cobra se
                             concentre sur la <strong>création de tatouages uniques et personnalisés</strong> pour chaque
-                            client. Eric travaille en amont avec ses clients pour proposer un projet tattoo qui
-                            correspond à vos idées et votre style.</p><br/><p>Vous pouvez contacter Eric par e-mail,
+                            client. Erico travaille en amont avec ses clients pour proposer un projet tattoo qui
+                            correspond à vos idées et votre style.</p><br/><p>Vous pouvez contacter Erico par e-mail,
                         téléphone
-                        ou Instagram <Link
+                        ou <Link
                             href="https://www.instagram.com/eric_o_/"
-                            className="hover:text-primary-500 ease-in-out duration-300"> @eric_o_</Link> afin de
+                            className="hover:text-primary-500 ease-in-out duration-300"> Instagram</Link> afin de
                         discuter d’un projet. Le salon de tatouage est situé 8,
                         rue de la course à Strasbourg. La rue s’étend entre le boulevard de Nancy et le quai
                         Saint-Jean à Strasbourg. Un lieu au cœur de Strasbourg pour ceux qui cherchent un

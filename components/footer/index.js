@@ -22,6 +22,10 @@ export default function Footer() {
                 </div>
 
             </div>
+
+            <div className="">
+                <Link href="/rgpd">Rgpd</Link>
+            </div>
         </footer>
     )
 }

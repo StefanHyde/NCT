@@ -23,7 +23,7 @@ export default function artistSwiper() {
             <SwiperSlide>
                 <div className="flex flex-col xl:flex-row  items-center gap-16">
                     <div className="flex flex-col gap-4">
-                        <h4 className="uppercase">L’art géométrique d’Éric - Erico, un tatouage graphique ou
+                        <h4 className="uppercase">L’art géométrique d’Erico, un tatouage graphique ou
                             dotwork made in Strasbourg</h4>
                         <Link href="https://www.instagram.com/eric_o_"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
@@ -49,7 +49,7 @@ export default function artistSwiper() {
             <SwiperSlide>
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="flex flex-col gap-4">
-                        <h4 className="uppercase">Richard - UncleHo, un artiste tatoueur au style néojaponais à Strasbourg</h4>
+                        <h4 className="uppercase">UncleHo, un artiste tatoueur au style néojaponais à Strasbourg</h4>
                         <Link href="https://www.instagram.com/uncle_ho_mitchmalone/?hl=fr"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
                         <p>Le tatouage néojaponais s’inspire du tatouage Japonais traditionnel. Il en reprend les codes,
@@ -79,7 +79,7 @@ export default function artistSwiper() {
             <SwiperSlide>
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="flex flex-col gap-4">
-                        <h4 className="uppercase">Jean-Baptiste - JBMaglia, un tatoueur dans le style Japonais traditionnel à
+                        <h4 className="uppercase">JBMaglia, un tatoueur dans le style Japonais traditionnel à
                             Strasbourg</h4>
                         <Link href="https://www.instagram.com/jbmaglia/?hl=fr"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
@@ -89,7 +89,7 @@ export default function artistSwiper() {
                             faciles à s’approprier. Si sa préférence va aux grandes pièces, son <strong>expérience en
                                 street shop</strong> le rend capable de répondre à tous les types de flashs. </p>
                         <p>Passionné par le dessin et le tatouage depuis l’adolescence, Jean-Baptiste a “toujours eu
-                            cela en tête”, et pratique le tatouage depuis plus de 15 ans. Au plus proche de la demande
+                            cela en tête”, et pratique le tatouage depuis 2009. Au plus proche de la demande
                             de ses clients, il sait composer des tatouages qui leur correspondent, <strong>puissants et
                                 authentiques</strong>.</p>
                         <p><i>“Il faut savoir rester fidèle à l’idée du client, la retranscrire avec précision.”</i></p>
@@ -103,7 +103,7 @@ export default function artistSwiper() {
             <SwiperSlide>
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="flex flex-col gap-4">
-                        <h4 className="uppercase">Bertrand - Vert de gris, le handpoke, un univers en pointillé dans notre salon à
+                        <h4 className="uppercase">Vert de gris, le handpoke, un univers en pointillé dans notre salon à
                             Strasbourg</h4>
                         <Link href="https://www.instagram.com/vertdegris_ttt/"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
