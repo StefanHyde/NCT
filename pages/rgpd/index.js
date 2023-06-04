@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from "next/link";
 
 export default function RGPDPage() {
     return (
@@ -21,14 +22,14 @@ export default function RGPDPage() {
 
                     <h2 className="font-poppins text-lg uppercase">Collecte des données personnelles</h2>
                     <p>Nous collectons les données personnelles suivantes :</p>
-                    <ul>
+                    <ul className="list-disc pl-8">
                         <li>Nom</li>
                         <li>Adresse e-mail</li>
                     </ul>
 
                     <h2 className="font-poppins text-lg uppercase">Utilisation des données personnelles</h2>
                     <p>Les données personnelles collectées sont utilisées pour :</p>
-                    <ul>
+                    <ul className="list-disc pl-8">
                         <li>Répondre aux demandes des utilisateurs</li>
                         <li>Améliorer notre site web</li>
                         <li>Envoyer des newsletters et des communications marketing</li>
@@ -44,7 +45,7 @@ export default function RGPDPage() {
 
                     <h2 className="font-poppins text-lg uppercase">Droits des utilisateurs</h2>
                     <p>Les utilisateurs ont les droits suivants concernant leurs données personnelles :</p>
-                    <ul>
+                    <ul className="list-disc pl-8">
                         <li>Droit d'accès</li>
                         <li>Droit de rectification</li>
                         <li>Droit à l'effacement</li>
@@ -59,7 +60,7 @@ export default function RGPDPage() {
 
                     <h2 className="font-poppins text-lg uppercase">Contact</h2>
                     <p>Pour toute question ou demande concernant notre politique de confidentialité, veuillez nous
-                        contacter à l'adresse suivante : neoncobratattoo@gmail.com</p>
+                        contacter à l'adresse suivante : <Link href={"mailto:neoncobratattoo@gmail.com"} className="hover:text-primary-500 ease-in-out duration-300">neoncobratattoo@gmail.com</Link></p>
                 </div>
             </div>
         </>

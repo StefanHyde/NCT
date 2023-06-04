@@ -1,11 +1,16 @@
-import {useForm} from "react-hook-form";
+import {useForm, Controller} from "react-hook-form";
 import {useState} from "react";
+import Link from "next/link";
 
 export default function Contact() {
-    const {register, handleSubmit,reset, formState: {errors},} = useForm()
+    const {register, handleSubmit,reset, control,formState, formState: {errors},} = useForm()
 
     const [isLoading, setIsLoading] = useState(false);
     const [isSended, setIsSended] = useState(false);
+
+    const { isSubmitting } = formState;
+
+
     const onSubmitHandler = async (data) => {
        if(!isLoading) {
            setIsLoading(true);
@@ -100,10 +105,25 @@ export default function Contact() {
                     ></textarea>
                     {errors.message && <p className="text-secondary-500 text-xs pt-1">Veuillez renseigner votre message</p>}
                 </label>
+
+                <Controller
+                    name="rgpd"
+                    control={control}
+                    defaultValue={false}
+                    rules={{ required: true }}
+                    render={({ field }) => (
+                        <label className="flex pb-4">
+                            <input type="checkbox" className="w-4 h-4"  {...field} />
+                             <Link href={'/rgpd'} className="ml-2 font-light text-xs hover:underline">J'accepte les conditions générales et la politique de confidentialité</Link>
+                        </label>
+                    )}
+                />
+
                 <div className="mb-6 flex justify-center">
                     {!isLoading && <button
                         type="submit"
-                        className="flex items-center h-12 p-4 text-white bg-primary-500 rounded-lg text-neutrals-0  hover:bg-primary-600 ease-in-out duration-500"
+                        disabled={!formState.isValid || isSubmitting}
+                        className={`flex items-center h-12 p-4 text-white bg-primary-500 rounded-lg text-neutrals-0  hover:bg-primary-600 ease-in-out duration-500 ${!formState.isValid || isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
                     >
                         Envoyer
                     </button>}
