@@ -145,7 +145,7 @@ export default function Home() {
                 
                 <div className="w-full p-0">
                     <Link href="https://goo.gl/maps/BGvpMJmr4DyypQAp6?coh=178573&entry=tt">
-                        <div className="h-72 md:h-96">
+                        <div className="h-72 xl:h-128">
                             <Image src={imgMaps} alt={'accès shop'} className='h-full w-full object-cover object-center' />
                         </div>
 
