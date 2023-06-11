@@ -9,7 +9,7 @@ export default function Jb() {
     const images = [
         "/img/artists/jb/francis.jpg",
         "/img/artists/jb/IMG-4084.jpg",
-        "/img/artists/jb/IMG-4601.jpg",
+        "/img/artists/jb/IMG-4634.jpg",
         "/img/artists/jb/IMG-4954.jpg",
         "/img/artists/jb/IMG_20191025_181323.jpg",
         "/img/artists/jb/IMG_20200119_171627ww.jpg",
