@@ -102,7 +102,7 @@ export default function Richard() {
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">À Strasbourg, le tattoo
                             néo-japonais développe un style de tatouage personnel</h3>
                         <br/>
-                        <p>Le tatouage Japonais est <strong>un style de tatouage très populaire</strong>. Il traverse
+                        <p>Le tatouage japonais est <strong>un style de tatouage très populaire</strong>. Il traverse
                             les modes grâce à son esthétique et son répertoire riche en symboles. Le tatouage
                             néo-japonais puise dans cette tradition.</p>
                     </div>
@@ -168,7 +168,7 @@ export default function Richard() {
                             <ul>
                                 <li>Le bestiaire : Ryū dragon, Tora tigre, Koï carpe, Houou phénix ou Baku.</li>
                                 <li>Les créatures fantastiques : Fudo myoo, masque Hannya, Fujin et Raijin.</li>
-                                <li>Les végétaux : Botan pivoine, Kiku chrysanthème, Hasu lotus, Sakura fleur de
+                                <li>Les végétaux : Botan pivoine, Kiku chrysanthème, Hasu lotus, Sakura, fleur de
                                     cerisier etc.
                                 </li>
                             </ul>
@@ -185,7 +185,7 @@ export default function Richard() {
                         <br/>
                         <p>Richard dit Uncle_ho, possède une expérience de 20 années dans le Street art. Passer de
                             l'univers urbain à l’intimité du corps ne lui a pas posé de problème. Le <strong>tatouage
-                                Japonais néo-traditionnel </strong>est proche du graffiti de par la composition, la
+                                japonais néo-traditionnel </strong>est proche du graffiti de par la composition, la
                             dynamique des couleurs et le travail sur différents plans. Un ensemble qui crée des
                             compositions riches en détails et en mouvements. Le <strong>tatoueur néo-japonais aime
                                 s’exprimer sur de grandes surfaces</strong>. Ce style de tattoo permet de tatouer de

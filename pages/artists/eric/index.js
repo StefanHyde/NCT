@@ -47,7 +47,7 @@ export default function Eric() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <p>Erico, artiste tatoueur, s’est installé à Strasbourg, capitale de l’Europe et ville
                             emblématique de l'Est de la France. Il puise son inspiration dans un univers mâtiné de Métal
-                            Hurlant et d’Architecture brutale pour créer des motifs graphiques et géométriques. Un
+                            Hurlant et d’architecture brutaliste pour créer des motifs graphiques et géométriques. Un
                             univers qu’il réinterprète à l’infini, mêlant tatouage dotwork et éléments black tattoo.
                             Erico utilise des lignes claires, des couleurs vives et des motifs abstraits pour créer des
                             designs uniques. Il élabore des designs extrêmement travaillés dans un style géométrique et

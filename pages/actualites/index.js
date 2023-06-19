@@ -12,7 +12,7 @@ export default function Blog() {
             <Head>
                 <title> Actualités salon de tatouage à Strasbourg | Neon Cobra 🐍</title>
                 <meta name="description"
-                      content="Neon Cobra, votre salon de tatouage Strasbourgeois pour obtenir un tatouage unique et de qualité. Toutes les actualités de notre salon de tatouage, et du monde du tatouage. "/>
+                      content="Neon Cobra, votre salon de tatouage strasbourgeois pour obtenir un tatouage unique et de qualité. Toutes les actualités de notre salon de tatouage, et du monde du tatouage. "/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
 

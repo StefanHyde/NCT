@@ -51,7 +51,7 @@ export default function Bertrand() {
                             France. Au sein du salon situé 8 rue de la course au centre de Strasbourg, Bertrand partage
                             sa passion pour le tatouage handpoke. À travers cette technique de tatouage entièrement
                             tournée vers la précision du geste, il partage un moment d’intimité avec ses clients
-                            Strasbourgeois.</p>
+                            strasbourgeois.</p>
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@ export default function Bertrand() {
                                                   className="hover:text-primary-500 ease-in-out duration-300">@vertdegris_ttt</Link> sur
                             Instagram, témoigne d’une maîtrise acquise par des
                             années de pratique. Un tour du côté du <strong>studio de tatouage Neon Cobra</strong> entre
-                            le boulevard de Nancy et le Quai Saint-Jean à Strasbourg, vous renseignera sur la qualité de
+                            le boulevard de Nancy et le quai Saint-Jean à Strasbourg, vous renseignera sur la qualité de
                             son travail.</p>
                     </div>
                 </div>
@@ -205,7 +205,7 @@ export default function Bertrand() {
                             mélange de cultures et d’expressions. Bertrand s’est passionné pour la technique du tatouage
                             handpoke. Il aime <strong>tatouer des parties du corps délicates</strong> comme les mains,
                             les doigts ou les oreilles. Rencontrez Bertrand chez Neon Cobra quai Kléber, à la hauteur du
-                            Pont Kuss au centre de Strasbourg et confiez-lui votre projet tattoo. Vous êtes entre de
+                            pont Kuss au centre de Strasbourg et confiez-lui votre projet tattoo. Vous êtes entre de
                             bonnes mains, pour lui, tatouer est plus qu’un art, c’est un honneur.</p>
 
                     </div>

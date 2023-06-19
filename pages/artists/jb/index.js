@@ -80,7 +80,7 @@ export default function Jb() {
                         <br/>
                         <p>Les classes les plus aisées de la société japonaise peuvent porter le kimono. Le petit
                             peuple, ouvriers du bâtiment et porteurs "Jinrikisha ", travaille le plus souvent dans la
-                            rue et <strong>torse nu</strong>. Le <i>suikoden </i>est un roman d’aventures Chinois qui,
+                            rue et <strong>torse nu</strong>. Le <i>suikoden </i>est un roman d’aventures chinois qui,
                             par ses héros tatoués sur tout le corps, <strong>popularise le tatouage</strong>. Avec le
                             tatouage, à défaut d'habits, le corps se pare de motifs gravés sur la peau,<strong> la mode
                                 des tatouages se répand.</strong></p>
@@ -173,7 +173,7 @@ export default function Jb() {
                             <ul>
                                 <li>Le bestiaire : Ryū dragon, Tora tigre, Koï carpe, Houou phénix ou Baku.</li>
                                 <li>Les créatures fantastiques : Fudo myoo, masque Hannya, Fujin et Raijin.</li>
-                                <li>Les végétaux : Botan pivoine, Kiku chrysanthème, Hasu lotus, Sakura fleur de
+                                <li>Les végétaux : Botan pivoine, Kiku chrysanthème, Hasu lotus, Sakura, fleur de
                                     cerisier etc.
                                 </li>
                             </ul>
@@ -204,7 +204,7 @@ export default function Jb() {
                         <br/>
                         <p>Venez concevoir votre <strong>projet de</strong> <strong>tatouage japonais
                             traditionnel</strong> chez Neon Cobra. Notre équipe vous reçoit 8, rue de la course à
-                            Strasbourg. Passez au shop, près du quai Kléber, à la hauteur du Pont Kuss au centre de
+                            Strasbourg. Passez au shop, près du quai Kléber, à la hauteur du pont Kuss au centre de
                             Strasbourg, sans vous perdre dans la petite France. Vous pouvez amener un projet, des
                             visuels, les styles qui vous plaisent dans le tattoo. Nos tarifs et prix s’établissent en
                             fonction de votre projet.</p>

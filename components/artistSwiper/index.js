@@ -49,16 +49,16 @@ export default function artistSwiper() {
             <SwiperSlide>
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="flex flex-col gap-4">
-                        <h4 className="uppercase">UncleHo, un artiste tatoueur au style néojaponais à Strasbourg</h4>
+                        <h4 className="uppercase">UncleHo, un artiste tatoueur au style néo-japonais à Strasbourg</h4>
                         <Link href="https://www.instagram.com/uncle_ho_mitchmalone/?hl=fr"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
-                        <p>Le tatouage néojaponais s’inspire du tatouage Japonais traditionnel. Il en reprend les codes,
+                        <p>Le tatouage néo-japonais s’inspire du tatouage japonais traditionnel. Il en reprend les codes,
                             dans ses dessins mais s’éloigne de la symbolique pour des <strong>motifs</strong> <strong>plus
                                 personnels</strong>, plus lisibles en France. Il puise son inspiration dans le tatouage
-                            old school Japonais, mais s’en démarque par des lignes et un ancrage plus prononcé.</p>
+                            old school japonais, mais s’en démarque par des lignes et un ancrage plus prononcé.</p>
                         <p>Après avoir passé 20 ans à dessiner sur les murs, Richard décide de changer de support et
                             passe sur la peau. Il commence sa carrière de tatoueur en 2013 avec comme style de
-                            prédilection le <strong>tatouage japonais néotraditionnel</strong>, un genre proche du
+                            prédilection le <strong>tatouage japonais néo-traditionnel</strong>, un genre proche du
                             graffiti de par sa dynamique, et qui permet à Richard de travailler en couleurs et sur
                             plusieurs plans pour des compositions riches en détails et en mouvements.</p>
                         <p>Graffiti oblige, Richard affectionne tout particulièrement <strong>tatouer de grands
@@ -79,7 +79,7 @@ export default function artistSwiper() {
             <SwiperSlide>
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     <div className="flex flex-col gap-4">
-                        <h4 className="uppercase">JBMaglia, un tatoueur dans le style Japonais traditionnel à
+                        <h4 className="uppercase">JBMaglia, un tatoueur dans le style japonais traditionnel à
                             Strasbourg</h4>
                         <Link href="https://www.instagram.com/jbmaglia/?hl=fr"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
