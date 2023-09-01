@@ -88,7 +88,6 @@ export default function Contact() {
                         <option>Erico</option>
                         <option>UncleHo</option>
                         <option>JBMaglia</option>
-                        <option>Vert de Gris</option>
                     </select>
                     {errors.select && <p className="text-secondary-500 text-xs pt-1">Veuillez sélectionner un artiste</p>}
                 </label>
