@@ -7,7 +7,7 @@ export default function Hero({src, alt, title, description, link, mail, place, .
     const router = useRouter();
     const currentPath = router.pathname;
 
-    if (currentPath === '/artists/eric' || currentPath === '/artists/jb' || currentPath === '/artists/bertrand' || currentPath === '/artists/richard') {
+    if (currentPath === '/artists/eric' || currentPath === '/artists/jb' || currentPath === '/artists/richard') {
         return (
             <div className="relative w-full h-128 md:h-192 2xl:h-256">
                 <div className="flex items-center justify-center xl:justify-start bg-neutrals-1000 h-full w-full">

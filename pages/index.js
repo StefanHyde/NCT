@@ -55,7 +55,7 @@ export default function Home() {
                             réunis dans un tattoo shop unique à Strasbourg</h3>
                         <br/>
                         <p>Notre salon de tatouage strasbourgeois rassemble <strong>4 personnalités du monde du
-                            tattoo</strong>. Éric, Richard, Jean-Baptiste et Bertrand. Nos quatre <strong>artistes
+                            tattoo</strong>. Éric, Richard, et Jean-Baptiste. Nos quatre <strong>artistes
                             tatoueurs</strong> ont choisi d’unir leurs talents au sein du <strong>studio de tatouage
                             Neon Cobra</strong>. </p>
                         <p>Situé près de la Maison de l'Amérique Latine à Strasbourg, notre studio de tatouage réunit
