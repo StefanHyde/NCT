@@ -1,5 +1,5 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
-import SwiperCore, { Autoplay } from 'swiper'
+import SwiperCore, {Autoplay} from 'swiper'
 import 'swiper/css';
 import Image from 'next/image';
 import {GrInstagram} from "react-icons/gr";
@@ -8,17 +8,16 @@ import Link from "next/link";
 import imgEric from '@/public/img/artists/eric/IMG_21581.jpg';
 import imgRichard from '@/public/img/artists/richard/IMG_20220925_191410_708.jpg'
 import imgJb from '@/public/img/artists/jb/jbdragon.jpg'
-import imgBertrand from '@/public/img/artists/bertrand/image0(2).jpeg'
 
 export default function artistSwiper() {
     return (
         <Swiper
-            modules={[ Autoplay]}
+            modules={[Autoplay]}
             spaceBetween={0}
             slidesPerView={1}
-            autoplay={{ delay: 10000 }}
+            autoplay={{delay: 10000}}
             loop={true}
-            pagination={{ clickable: true}}
+            pagination={{clickable: true}}
         >
             <SwiperSlide>
                 <div className="flex flex-col xl:flex-row  items-center gap-16">
@@ -52,7 +51,8 @@ export default function artistSwiper() {
                         <h4 className="uppercase">UncleHo, un artiste tatoueur au style néo-japonais à Strasbourg</h4>
                         <Link href="https://www.instagram.com/uncle_ho_mitchmalone/?hl=fr"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
-                        <p>Le tatouage néo-japonais s’inspire du tatouage japonais traditionnel. Il en reprend les codes,
+                        <p>Le tatouage néo-japonais s’inspire du tatouage japonais traditionnel. Il en reprend les
+                            codes,
                             dans ses dessins mais s’éloigne de la symbolique pour des <strong>motifs</strong> <strong>plus
                                 personnels</strong>, plus lisibles en France. Il puise son inspiration dans le tatouage
                             old school japonais, mais s’en démarque par des lignes et un ancrage plus prononcé.</p>
@@ -97,30 +97,6 @@ export default function artistSwiper() {
 
                     <Image src={imgJb} width={350}
                            height={350} className="h-[350px] w-[350px]" alt={'tattoo JB'}/>
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div className="flex flex-col lg:flex-row items-center gap-16">
-                    <div className="flex flex-col gap-4">
-                        <h4 className="uppercase">Vert de gris, le handpoke, un univers en pointillé dans notre salon à
-                            Strasbourg</h4>
-                        <Link href="https://www.instagram.com/vertdegris_ttt/"><GrInstagram
-                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
-                        <p>C’est la fascination pour cet acte permanent, “figé dans la peau”, qui a mené Bertrand vers
-                            le métier de tatoueur. Depuis 3 ans, il développe un <strong>univers ornemental aux lignes
-                                noires, élégantes et efficaces</strong>, qu’il aime tatouer sur des parties techniques
-                            comme les mains, les doigts ou encore les oreilles. </p>
-                        <p>Pour Bertrand, le tatouage a trait <strong>au rituel et au sacré</strong>. Cette dimension
-                            spirituelle, il la puise dans l’histoire médiévale européenne, manuscrits, sculptures et
-                            symboles alchimiques qu’il appose sur le corps. C’est avant tout un honneur pour Bertrand de
-                            tatouer les clients qui lui font confiance. Il partage avec eux <strong>références secrètes
-                                et symboliques cachées</strong>, ensemble, ils composent de nouvelles histoires.</p>
-                        <p><i>“ Se faire tatouer est la plus grande expression de la liberté.”</i></p>
-                    </div>
-
-                    <Image src={imgBertrand} width={350}
-                           height={350} className="h-[350px] w-[350px]" alt={'tattoo Bertrand'}/>
                 </div>
             </SwiperSlide>
 
