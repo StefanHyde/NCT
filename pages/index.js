@@ -34,7 +34,7 @@ export default function Home() {
                             studio de tatouage Neon Cobra a élu domicile.<br/>
                             Passionnée et minutieuse, <strong>l’équipe de tatoueurs strasbourgeois de Neon
                                 Cobra</strong> vous propose différents univers graphiques. Style géométrique, japonais
-                            traditionnel ou neo-japonais ou encore tattoo Handpoke, chaque tatoueur s'exprime en
+                            traditionnel ou encore neo-japonais, chaque tatoueur s'exprime en
                             fonction de sa personnalité. La technique est <strong>parfaitement maîtrisée par chaque
                                 artiste. </strong>
                             Découvrez Neon Cobra, un tattoo shop de <strong>référence en Alsace</strong>.
@@ -51,11 +51,11 @@ export default function Home() {
                 <div className="flex flex-col items-center">
 
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
-                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">4 artistes passionnés,
+                        <h3 className="font-poppins text-center text-neutrals-1000 uppercase">3 artistes passionnés,
                             réunis dans un tattoo shop unique à Strasbourg</h3>
                         <br/>
-                        <p>Notre salon de tatouage strasbourgeois rassemble <strong>4 personnalités du monde du
-                            tattoo</strong>. Éric, Richard, et Jean-Baptiste. Nos quatre <strong>artistes
+                        <p>Notre salon de tatouage strasbourgeois rassemble <strong>3 personnalités du monde du
+                            tattoo</strong>. Éric, Richard, et Jean-Baptiste. Nos trois <strong>artistes
                             tatoueurs</strong> ont choisi d’unir leurs talents au sein du <strong>studio de tatouage
                             Neon Cobra</strong>. </p>
                         <p>Situé près de la Maison de l'Amérique Latine à Strasbourg, notre studio de tatouage réunit
@@ -67,8 +67,7 @@ export default function Home() {
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Les tattoos proposés chez
                             Neon Cobra, salon de tatouage à Strasbourg</h3>
                         <br/>
-                        <p>Japonais traditionnel, néo-japonais, néo-traditionnel, géométrique ou encore dotwork et
-                            handpoke, notre tattoo shop propose une multitude d’univers graphiques et de techniques ; un
+                        <p>Japonais traditionnel, néo-japonais, néo-traditionnel, géométrique ou encore dotwork, notre tattoo shop propose une multitude d’univers graphiques et de techniques ; un
                             large éventail de tatouages tous réalisés par <strong>des professionnels renommés dans leur
                                 domaine</strong>.</p>
                         <p>Du grand projet pour le dos, au <strong>petit tatouage flash</strong> choisi sur place, en
