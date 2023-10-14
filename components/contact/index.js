@@ -113,7 +113,7 @@ export default function Contact() {
                     render={({ field }) => (
                         <label className="flex pb-4">
                             <input type="checkbox" className="w-4 h-4"  {...field} />
-                             <Link href={'/rgpd'} className="ml-2 font-light text-xs hover:underline">J'accepte les conditions générales et la politique de confidentialité</Link>
+                             <Link href={'/rgpd'} className="ml-2 font-light text-neutrals-1000 text-xs hover:underline">J'accepte les conditions générales et la politique de confidentialité</Link>
                         </label>
                     )}
                 />
