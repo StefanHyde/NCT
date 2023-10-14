@@ -30,6 +30,9 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# Local Netlify folder
-.netlify
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/nct.iml
+/.idea/php.xml
+/.idea/vcs.xml
