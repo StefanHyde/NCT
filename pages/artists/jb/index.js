@@ -22,7 +22,28 @@ export default function Jb() {
         "/img/artists/jb/tigre3quart.jpg",
         "/img/artists/jb/Kannondragon.jpg",
         "/img/artists/jb/IMG-4977.jpg",
-        "/img/artists/jb/8A2A8879.jpg"
+        "/img/artists/jb/8A2A8879.jpg",
+        "/img/artists/jb/jb maglia bras dragon.jpg",
+        "/img/artists/jb/jb maglia bras dragon 2.jpg",
+        "/img/artists/jb/jb maglia bras tigre et dragon.jpg",
+        "/img/artists/jb/jb maglia dragon.jpg",
+        "/img/artists/jb/jb maglia dragon 2.jpg",
+        "/img/artists/jb/jb maglia masque tengu.jpg",
+        "/img/artists/jb/jb maglia ryugyo.jpg",
+        "/img/artists/jb/jb maglia tigre.jpg",
+        "/img/artists/jb/IMG-4601.jpg",
+        "/img/artists/jb/jb maglia fudo myoo 3.jpg",
+        "/img/artists/jb/jb maglia tengu 2.jpg",
+        "/img/artists/jb/jb maglia carpe koi.jpg",
+        "/img/artists/jb/jb maglia carpe 3.jpg",
+        "/img/artists/jb/jb maglia demi manche.jpg",
+        "/img/artists/jb/jb maglia serpent.jpg",
+        "/img/artists/jb/jb maglia hannya.jpg",
+        "/img/artists/jb/jb maglia hannya 2.jpg",
+        "/img/artists/jb/jb maglia bodysuit carpe dragon 1.JPG",
+        "/img/artists/jb/jb maglia bodysuit carpe dragon 2.JPG",
+        "/img/artists/jb/jb maglia bodysuit carpe dragon 3.JPG",
+        "/img/artists/jb/jb maglia bodysuit carpe dragon 4.JPG"
     ]
 
     return (
@@ -30,15 +51,15 @@ export default function Jb() {
             <Head>
                 <title>Tatouage Traditionnel Japonais à Strasbourg | Neon Cobra 🐍</title>
                 <meta name="description"
-                      content="Découvrez l'art traditionnel japonais du tatouage à Strasbourg avec Jean-Baptiste. En tant que tatoueur expert dans le style de tatouage japonais, Jean-Baptiste crée des tatouages uniques et sur mesure qui reflètent la beauté et la culture japonaise."/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                    content="Découvrez l'art traditionnel japonais du tatouage à Strasbourg avec Jean-Baptiste. En tant que tatoueur expert dans le style de tatouage japonais, Jean-Baptiste crée des tatouages uniques et sur mesure qui reflètent la beauté et la culture japonaise." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
 
 
             <div className="mt-18">
                 <Hero src={imgJb} alt={`photo de JbMaglia`} title={`JBMAGLIA`}
-                      description={`Un salon de tatouage japonais traditionnel à Strasbourg`}
-                      link={`https://www.instagram.com/jbmaglia/?hl=fr`} mail={'mailto:jxbxtattoo@gmail.com'} place={`xl:ml-40`}
+                    description={`Un salon de tatouage japonais traditionnel à Strasbourg`}
+                    link={`https://www.instagram.com/jbmaglia/?hl=fr`} mail={'mailto:jxbxtattoo@gmail.com'} place={`xl:ml-40`}
                 />
             </div>
 
@@ -65,7 +86,7 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">La petite Histoire du
                             tatouage japonais traditionnel</h3>
-                        <br/>
+                        <br />
                         <p>Le <strong>tatouage japonais traditionnel </strong>est un art à part entière avec ses motifs,
                             sa technique et ses maîtres. Un art que pratique aujourd’hui <strong>Jean-Baptiste chez Neon
                                 Cobra</strong> dans la capitale européenne. L’Irezumi, le tatouage japonais
@@ -78,7 +99,7 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage japonais
                             traditionnel, une histoire qui se développe dans la culture populaire</h3>
-                        <br/>
+                        <br />
                         <p>Les classes les plus aisées de la société japonaise peuvent porter le kimono. Le petit
                             peuple, ouvriers du bâtiment et porteurs "Jinrikisha ", travaille le plus souvent dans la
                             rue et <strong>torse nu</strong>. Le <i>suikoden </i>est un roman d’aventures chinois qui,
@@ -93,7 +114,7 @@ export default function Jb() {
 
             <div className="flex flex-col items-center py-12 bg-neutrals-1000 space-y-12">
                 <h3 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h3>
-                <ImgGallery images={images}/>
+                <ImgGallery images={images} imageAlt={('tatouage japonais strasbourg, tatouage traditionnel japonais strasbourg, tatouage Irezumi strasbourg')} />
             </div>
 
             <div className="flex flex-col py-12 bg-neutrals-0 space-y-4">
@@ -102,7 +123,7 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage japonais
                             traditionnel, un art confié à des maîtres tatoueurs</h3>
-                        <br/>
+                        <br />
                         <p>Les motifs de tatouages sont <strong>popularisés par l’estampe</strong>. Les dessins sont
                             réalisés par des maîtres <strong>qui les confient ensuite à des graveurs</strong>. Le geste
                             s’affine, l’outil se perfectionne. Au début du 19e siècle, la <strong>profession de maître
@@ -119,7 +140,7 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage traditionnel,
                             des dessins inspirés par les mythes et légendes du Japon </h3>
-                        <br/>
+                        <br />
                         <p>Les motifs de dessins propres au tatouage Irezumi sont restés inchangés à travers les
                             siècles. Le tatouage traditionnel japonais est <strong>un art très codifié</strong>. Les
                             tatoueurs inscrivent <strong>les éléments</strong> eau, feu, air, en toile de fond de leur
@@ -132,7 +153,7 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Sur quelle partie du corps
                             peut-on faire un tatouage japonais traditionnel ?</h3>
-                        <br/>
+                        <br />
                         <p>Les tatouages japonais traditionnels étaient réalisés à l’aide d’un Tebori, un impressionnant
                             bâton de bambou muni d’aiguilles. L’Irezumi se pratique aujourd’hui à l’aide d’<strong>un
                                 dermographe</strong>. Si la technique a évolué, l’hygiène reste parfaitement maîtrisée
@@ -152,9 +173,9 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
                         <h3 className="font-poppins text-center text-neutrals-0 uppercase">Les motifs de prédilection de
                             Jean-Baptiste, un tatoueur au style japonais traditionnel à Strasbourg</h3>
-                        <br/>
+                        <br />
                         <p><strong>Flash tattoo ou
-                                design complexe</strong>, il sait trouver la bonne taille et le bon positionnement du
+                            design complexe</strong>, il sait trouver la bonne taille et le bon positionnement du
                             tatouage. Jean-Baptiste choisit les éléments de fond du projet associés à des figures
                             qui <strong>respectent les codes esthétiques du</strong> <strong>tatouage traditionnel
                                 japonais</strong>. Ses années de pratique font de Jean-Baptiste, une des référence du
@@ -164,20 +185,20 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
                         <h3 className="font-poppins text-center text-neutrals-0 uppercase">Quelques motifs de tatouage
                             traditionnels disponibles chez Neon Cobra à Strasbourg</h3>
-                        <br/>
+                        <br />
                         <p>Véritable œuvre d’art, le tatouage traditionnel japonais demande <strong>de la patience et de
                             la dextérité</strong>. Dans l’Irezumi, chaque symbole représente sa propre signification,
                             qu’il soit animal, végétal ou créature mythologique. Voici quelques motifs issus du
                             bestiaire ou de la mythologie traditionnelle japonaise. Ces <strong>motifs japonais
                                 traditionnels</strong> sont faisables en Gakubori ou en Nukibori, avec ou sans fond.
                             Parmi les nombreux motifs, voici quelques éléments du tatouage japonais traditionnel.</p>
-                            <ul>
-                                <li>Le bestiaire : Ryū dragon, Tora tigre, Koï carpe, Houou phénix ou Baku.</li>
-                                <li>Les créatures fantastiques : Fudo myoo, masque Hannya, Fujin et Raijin.</li>
-                                <li>Les végétaux : Botan pivoine, Kiku chrysanthème, Hasu lotus, Sakura, fleur de
-                                    cerisier etc.
-                                </li>
-                            </ul>
+                        <ul>
+                            <li>Le bestiaire : Ryū dragon, Tora tigre, Koï carpe, Houou phénix ou Baku.</li>
+                            <li>Les créatures fantastiques : Fudo myoo, masque Hannya, Fujin et Raijin.</li>
+                            <li>Les végétaux : Botan pivoine, Kiku chrysanthème, Hasu lotus, Sakura, fleur de
+                                cerisier etc.
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -188,7 +209,7 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Pourquoi choisir un
                             tatouage japonais traditionnel avec Jean-Baptiste à Strasbourg ?</h3>
-                        <br/>
+                        <br />
                         <p>Passionné par le dessin et le tatouage, Jean-Baptiste tatoue depuis 2009. Dans la
                             capitale de l'Europe, au plus proche de la demande de ses clients, il sait <strong>composer
                                 des projets de tatouages </strong>qui leur correspondent. Ensemble, vous élaborez le
@@ -202,7 +223,7 @@ export default function Jb() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Comment se faire tatouer
                             par Jean-Baptiste chez Neon Cobra à Strasbourg en Alsace</h3>
-                        <br/>
+                        <br />
                         <p>Venez concevoir votre <strong>projet de</strong> <strong>tatouage japonais
                             traditionnel</strong> chez Neon Cobra. Notre équipe vous reçoit 8, rue de la course à
                             Strasbourg. Passez au shop, près du quai Kléber, à la hauteur du pont Kuss au centre de
