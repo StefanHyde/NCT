@@ -9,17 +9,19 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import Link from "next/link";
 
-export default function ImgGallery ({ images })  {
+export default function ImgGallery({ images, imageAlt }) {
     return (
         <LightGallery
             mode="lg-fade"
             speed={500}
+            download={false}
+            getCaptionFromTitleOrAlt={false}
             plugins={[lgThumbnail, lgZoom]}
         >
             {images.map((image, index) => (
-                <Link key={index} href={image}  data-lg-size="1406-1390" className="gallery-item">
+                <Link key={index} href={image} data-lg-size="1406-1390" className="gallery-item">
                     <Image key={index} src={image} width={350}
-                           height={350} alt={``} className="img-responsive" />
+                        height={350} alt={imageAlt} className="img-responsive" />
                 </Link>
             ))}
         </LightGallery>
