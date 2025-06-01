@@ -22,6 +22,17 @@ export default function Eric() {
         "/img/artists/eric/PHOTO-2023-03-03-23-51-30(2).jpg",
         "/img/artists/eric/PHOTO-2023-03-03-23-53-05(4).jpg",
         "/img/artists/eric/IMG_21581.jpg",
+        "/img/artists/eric/erico alien invasion.jpg",
+        "/img/artists/eric/erico arbre géometrique.jpg",
+        "/img/artists/eric/erico cobra géometrique.jpg",
+        "/img/artists/eric/erico crane géometrique.jpg",
+        "/img/artists/eric/erico module géometrique.jpg",
+        "/img/artists/eric/erico module géometrique2.jpg",
+        "/img/artists/eric/erico module géometrique 3.jpg",
+        "/img/artists/eric/erico module géometrique4.jpg",
+        "/img/artists/eric/erico scorpion géometrique.jpg",
+        "/img/artists/eric/erico sigil.jpg",
+        "/img/artists/eric/erico sigil2.jpg",
     ]
 
     return (
@@ -29,15 +40,15 @@ export default function Eric() {
             <Head>
                 <title>Tatouage Géométrique à Strasbourg | Neon Cobra 🐍</title>
                 <meta name="description"
-                      content="Découvrez tout l'art du  tatouage géométrique à Strasbourg avec Éric de Neon Cobra. Avec des années d'expérience dans l'art du tatouage et une passion pour les motifs géométriques, Éric crée des tatouages uniques et sur mesure pour chaque client."/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                    content="Découvrez tout l'art du  tatouage géométrique à Strasbourg avec Éric de Neon Cobra. Avec des années d'expérience dans l'art du tatouage et une passion pour les motifs géométriques, Éric crée des tatouages uniques et sur mesure pour chaque client." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
 
 
             <div className="mt-18">
                 <Hero src={imgEric} alt={`photo de Erico`} title={`ERICO`}
-                      description={`Le tatouage de style géométrique et dotwork, une forme d'art corporel unique à Strasbourg`}
-                      link={`https://www.instagram.com/eric_o_`} mail={'mailto:ericotattoo@yahoo.com'} place={`xl:ml-40`}
+                    description={`Le tatouage de style géométrique et dotwork, une forme d'art corporel unique à Strasbourg`}
+                    link={`https://www.instagram.com/eric_o_`} mail={'mailto:ericotattoo@yahoo.com'} place={`xl:ml-40`}
                 />
             </div>
 
@@ -63,7 +74,7 @@ export default function Eric() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage géométrique,
                             l'art de la précision et de l'épure</h3>
-                        <br/>
+                        <br />
                         <p>Le tatouage géométrique n’est pas qu’une composition basique dans laquelle entre des <strong>formes
                             géométriques ou symétriques</strong>. Cet art corporel mêle un entrelac sophistiqué et
                             complexe de formes. Le tatouage géométrique et graphique gagne en popularité dans l'univers
@@ -77,7 +88,7 @@ export default function Eric() {
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Le tatouage de style
                             géométrique et graphique, des éléments structurés qui abritent une forme d'expression
                             personnelle</h3>
-                        <br/>
+                        <br />
                         <p>Contrairement au tatouage traditionnel, le tattoo géométrique <strong>interprète des éléments
                             du monde naturel</strong>. Animaux, plantes ou formes géométriques stylisées deviennent des
                             figures totémiques au style intemporel. À Strasbourg, Erico partage sa vision du tatouage
@@ -93,7 +104,7 @@ export default function Eric() {
 
             <div className="flex flex-col items-center py-12 bg-neutrals-1000 space-y-12">
                 <h2 className="font-scified text-3xl font-normal text-neutrals-0 text-center">REALISATIONS</h2>
-                <ImgGallery images={images}/>
+                <ImgGallery images={images} imageAlt={'tatouage géométrique strasbourg, tatouage graphique strasbourg, tatouage dotwork strasbourg'} />
             </div>
 
             <div className="flex flex-col py-12 bg-neutrals-0 space-y-4">
@@ -102,7 +113,7 @@ export default function Eric() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Les principaux symboles
                             présents dans les tatouages de style géométrique ou graphique</h3>
-                        <br/>
+                        <br />
                         <p>Les motifs et formes que l’on retrouve régulièrement dans les tatouages géométriques,
                             véhiculent <strong>des motifs symboliques</strong>. Voici les symboles les plus couramment
                             utilisés.</p>
@@ -137,7 +148,7 @@ export default function Eric() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">À Strasbourg, le dotwork
                             s'invite dans des tatouages aux compositions géométriques</h3>
-                        <br/>
+                        <br />
                         <p>Lorsqu’une ombre est fine, légère et crée un effet poudré, il y a de fortes chances qu’elle
                             soit réalisée avec la technique du dotwork. Le dotwork est une <strong>technique de tatouage
                                 pointilliste</strong>. Le tatoueur utilise des points de différentes tailles pour créer
@@ -151,7 +162,7 @@ export default function Eric() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Qu'est-ce qui caractérise
                             le tatouage de style graphique ?</h3>
-                        <br/>
+                        <br />
                         <p>Le style graphique en tatouage est un style relativement récent popularisé par des artistes
                             tatoueurs issus d’écoles d’arts appliqués. Sur un design tattoo graphique, on remarque
                             la <strong>présence de lignes claires, de couleurs vives et de motifs
@@ -177,16 +188,16 @@ export default function Eric() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-0">
                         <h3 className="font-poppins text-center text-neutrals-0 uppercase">Comment choisir un design de
                             tatouage géométrique ou dotwork à Strasbourg ?</h3>
-                        <br/>
+                        <br />
                         <p>Vous aimez le style géométrique abstrait ? À Strasbourg, au studio Neon Cobra vous êtes au
                             bon endroit. Voici quelques conseils pour vous aider à choisir un design de tatouage
                             géométrique ou dotwork.</p>
                         <ul className="pt-6">
                             <li>Si vous n'avez pas d'idée précise, parcourez les comptes Instagram d'Erico
                                 <Link href="https://www.instagram.com/hallowed.screams/"
-                                      className="hover:text-primary-500 ease-in-out duration-300"> @hallowed.screams</Link>, <Link
-                                    href="https://www.instagram.com/eric_o_/"
-                                    className="hover:text-primary-500 ease-in-out duration-300"> @eric_o_</Link> pour
+                                    className="hover:text-primary-500 ease-in-out duration-300"> @hallowed.screams</Link>, <Link
+                                        href="https://www.instagram.com/eric_o_/"
+                                        className="hover:text-primary-500 ease-in-out duration-300"> @eric_o_</Link> pour
                                 trouver des idées de designs qui vous plaisent.
                             </li>
                             <li>Pensez à la taille et à l'emplacement du tatouage que vous souhaitez.</li>
@@ -213,7 +224,7 @@ export default function Eric() {
                     <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-center text-neutrals-1000">
                         <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Erico, tatoueur de style
                             graphique, géométrique et dotwork au salon Neon Cobra à Strasbourg</h3>
-                        <br/>
+                        <br />
                         <p>Membre fondateur du studio Neon Cobra à Strasbourg, Erico est un <strong>tatoueur
                             expérimenté</strong> qui maîtrise les techniques de tatouage de style graphique, géométrique
                             et dotwork. Il crée <strong>des designs précis, complexes et détaillés</strong>, en
@@ -221,15 +232,15 @@ export default function Eric() {
                             des encres et des aiguilles stériles pour un tatouage de qualité. Le studio Neon Cobra se
                             concentre sur la <strong>création de tatouages uniques et personnalisés</strong> pour chaque
                             client. Erico travaille en amont avec ses clients pour proposer un projet tattoo qui
-                            correspond à vos idées et votre style.</p><br/><p>Vous pouvez contacter Erico par e-mail,
-                        téléphone
-                        ou <Link
-                            href="https://www.instagram.com/eric_o_/"
-                            className="hover:text-primary-500 ease-in-out duration-300"> Instagram</Link> afin de
-                        discuter d’un projet. Le salon de tatouage est situé 8,
-                        rue de la course à Strasbourg. La rue s’étend entre le boulevard de Nancy et le quai
-                        Saint-Jean à Strasbourg. Un lieu au cœur de Strasbourg pour ceux qui cherchent un
-                        tatouage unique et personnalisé dans un style graphique, géométrique et dotwork.</p>
+                            correspond à vos idées et votre style.</p><br /><p>Vous pouvez contacter Erico par e-mail,
+                                téléphone
+                                ou <Link
+                                    href="https://www.instagram.com/eric_o_/"
+                                    className="hover:text-primary-500 ease-in-out duration-300"> Instagram</Link> afin de
+                            discuter d’un projet. Le salon de tatouage est situé 8,
+                            rue de la course à Strasbourg. La rue s’étend entre le boulevard de Nancy et le quai
+                            Saint-Jean à Strasbourg. Un lieu au cœur de Strasbourg pour ceux qui cherchent un
+                            tatouage unique et personnalisé dans un style graphique, géométrique et dotwork.</p>
 
                     </div>
 
