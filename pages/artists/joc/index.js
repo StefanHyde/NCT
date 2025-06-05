@@ -22,7 +22,7 @@ export default function Jb() {
             <Head>
                 <title>JOC | Neon Cobra 🐍</title>
                 <meta name="description"
-                    content="Découvrez l'art traditionnel japonais du tatouage à Strasbourg avec Jean-Baptiste. En tant que tatoueur expert dans le style de tatouage japonais, Jean-Baptiste crée des tatouages uniques et sur mesure qui reflètent la beauté et la culture japonaise." />
+                    content="Lorem ipsum" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
 
@@ -30,7 +30,7 @@ export default function Jb() {
             <div className="mt-18">
                 <Hero src={imgJoc} alt={`photo de Joc`} title={`JOC`}
                     description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. `}
-                    link={`https://www.instagram.com/joc.tattooer/?hl=fr`} mail={''} place={`xl:ml-40`}
+                    link={`https://www.instagram.com/joc.tattooer/?hl=fr`} mail={'mailto:joc.tattooer@gmail.com'} place={`xl:ml-40`}
                 />
             </div>
 
@@ -73,29 +73,10 @@ export default function Jb() {
                             <h3 className="font-poppins text-center text-neutrals-1000 uppercase">Lorem ipsum</h3>
                             <br />
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo dolor nec risus commodo dapibus. Sed placerat lorem lorem, a mattis arcu condimentum eget. Vestibulum finibus quam sit amet aliquam commodo. Etiam urna sem, ultrices quis ex id, pulvinar tempus mi. Phasellus tempor nibh ac lorem tristique malesuada. Aenean imperdiet quis dolor sed egestas. Phasellus elit augue, posuere vel efficitur a, vestibulum ac enim.</p>
-
                         </div>
                     </div>
-
-
-
-
-
                 </div>
-
-
-
             </div>
-
-
-
-
-
-
-
-
-
-
         </>
     )
 }

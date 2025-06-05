@@ -1,9 +1,9 @@
-import {useForm, Controller} from "react-hook-form";
-import {useState} from "react";
+import { useForm, Controller } from "react-hook-form";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function Contact() {
-    const {register, handleSubmit,reset, control,formState, formState: {errors},} = useForm()
+    const { register, handleSubmit, reset, control, formState, formState: { errors }, } = useForm()
 
     const [isLoading, setIsLoading] = useState(false);
     const [isSended, setIsSended] = useState(false);
@@ -12,28 +12,28 @@ export default function Contact() {
 
 
     const onSubmitHandler = async (data) => {
-       if(!isLoading) {
-           setIsLoading(true);
-           const response = await fetch("/api/contact", {
-               method: 'POST',
-               headers: {
-                   "Content-Type": "application/json",
-               },
-               body: JSON.stringify(data),
-           });
+        if (!isLoading) {
+            setIsLoading(true);
+            const response = await fetch("/api/contact", {
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
 
-           const result = await response.json();
+            const result = await response.json();
 
-           setIsLoading(false);
+            setIsLoading(false);
 
-           if (!response.ok) {
-               console.log("error");
-           } else {
-               console.log("ok");
-               reset();
-               setIsSended(true);
-           }
-       }
+            if (!response.ok) {
+                console.log("error");
+            } else {
+                console.log("ok");
+                reset();
+                setIsSended(true);
+            }
+        }
     }
     return (
         <div className="w-full p-6 lg:w-2/4  2xl:w-1/4">
@@ -51,7 +51,7 @@ export default function Contact() {
                         type="text"
                         className="block w-full mt-1 p-2 border border-neutrals-300 rounded-sm focus:border-neutrals-500 placeholder:text-sm font-light"
                         placeholder="Votre nom et prénom"
-                        {...register('name', {required: true})}
+                        {...register('name', { required: true })}
                     />
                     {errors.name && <p className="text-secondary-500 text-xs pt-1">Veuillez renseigner votre nom et / ou prénom</p>}
                 </label>
@@ -63,7 +63,7 @@ export default function Contact() {
                         type="text"
                         className="block w-full mt-1 p-2 border border-neutrals-300 rounded-sm focus:border-neutrals-500 placeholder:text-sm font-light"
                         placeholder="Votre adresse mail"
-                        {...register('email', {required: true})}
+                        {...register('email', { required: true })}
                     />
                     {errors.email && <p className="text-secondary-500 text-xs pt-1">Veuillez renseigner votre adresse mail</p>}
                 </label>
@@ -74,20 +74,21 @@ export default function Contact() {
                         type="text"
                         className="block w-full mt-1 p-2 border border-neutrals-300 rounded-sm focus:border-neutrals-500 placeholder:text-sm font-light"
                         placeholder="Votre numéro de téléphone"
-                        {...register('phone', {required: false})}
+                        {...register('phone', { required: false })}
                     />
                 </label>
 
                 <label className="block mb-6">
-        <span className="text-neutrals-1000"
-        >Artiste à contacter</span
-        >
+                    <span className="text-neutrals-1000"
+                    >Artiste à contacter</span
+                    >
                     <select
                         className="block w-full mt-1 p-2 border border-neutrals-300 rounded-sm focus:border-neutrals-500 placeholder:text-sm font-light"
-                        {...register('select', {required: true})}>
+                        {...register('select', { required: true })}>
                         <option>Erico</option>
                         <option>UncleHo</option>
                         <option>JBMaglia</option>
+                        <option>JOC</option>
                     </select>
                     {errors.select && <p className="text-secondary-500 text-xs pt-1">Veuillez sélectionner un artiste</p>}
                 </label>
@@ -100,7 +101,7 @@ export default function Contact() {
                         className="block w-full mt-1 p-2 border border-neutrals-300 rounded-sm focus:border-neutrals-500 placeholder:text-sm font-light"
                         rows="3"
                         placeholder="Votre message"
-                        {...register('contenu', {required: true})}
+                        {...register('contenu', { required: true })}
                     ></textarea>
                     {errors.message && <p className="text-secondary-500 text-xs pt-1">Veuillez renseigner votre message</p>}
                 </label>
@@ -113,7 +114,7 @@ export default function Contact() {
                     render={({ field }) => (
                         <label className="flex pb-4">
                             <input type="checkbox" className="w-4 h-4"  {...field} />
-                             <Link href={'/rgpd'} className="ml-2 font-light text-neutrals-1000 text-xs hover:underline">J'accepte les conditions générales et la politique de confidentialité</Link>
+                            <Link href={'/rgpd'} className="ml-2 font-light text-neutrals-1000 text-xs hover:underline">J'accepte les conditions générales et la politique de confidentialité</Link>
                         </label>
                     )}
                 />
