@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/hero";
 import ImgGallery from "@/components/imgGallery";
 import imgJoc from "../../../public/img/artists/joc/NCT-Joc.jpg";
-import Link from "next/link";
+
 
 export default function Jb() {
 
@@ -30,7 +30,7 @@ export default function Jb() {
             <div className="mt-18">
                 <Hero src={imgJoc} alt={`photo de Joc`} title={`JOC`}
                     description={``}
-                    link={``} mail={''} place={`xl:ml-40`}
+                    link={`https://www.instagram.com/joc.tattooer/?hl=fr`} mail={''} place={`xl:ml-40`}
                 />
             </div>
 
