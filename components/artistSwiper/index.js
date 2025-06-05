@@ -1,13 +1,14 @@
-import {Swiper, SwiperSlide} from 'swiper/react';
-import SwiperCore, {Autoplay} from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Autoplay } from 'swiper'
 import 'swiper/css';
 import Image from 'next/image';
-import {GrInstagram} from "react-icons/gr";
+import { GrInstagram } from "react-icons/gr";
 import Link from "next/link";
 
 import imgEric from '@/public/img/artists/eric/IMG_21581.jpg';
 import imgRichard from '@/public/img/artists/richard/IMG_20220925_191410_708.jpg'
 import imgJb from '@/public/img/artists/jb/jbdragon.jpg'
+import imgJoc from '@/public/img/artists/joc/joc blackwork 5.jpg'
 
 export default function artistSwiper() {
     return (
@@ -15,9 +16,9 @@ export default function artistSwiper() {
             modules={[Autoplay]}
             spaceBetween={0}
             slidesPerView={1}
-            autoplay={{delay: 10000}}
+            autoplay={{ delay: 10000 }}
             loop={true}
-            pagination={{clickable: true}}
+            pagination={{ clickable: true }}
         >
             <SwiperSlide>
                 <div className="flex flex-col xl:flex-row  items-center gap-16">
@@ -25,7 +26,7 @@ export default function artistSwiper() {
                         <h4 className="uppercase">L’art géométrique d’Erico, un tatouage graphique ou
                             dotwork made in Strasbourg</h4>
                         <Link href="https://www.instagram.com/eric_o_"><GrInstagram
-                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
+                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300" /></Link>
                         <p>Éric s’intéresse à l’univers du tatouage depuis plus de 20 ans. C’est en 2009 qu’il commence
                             sa carrière de tatoueur avec comme volonté de proposer quelque chose de fondamentalement
                             différent.
@@ -34,13 +35,13 @@ export default function artistSwiper() {
                             géométrique abstrait</strong> aux motifs modulables à l’infini. Pour composer ses systèmes
                             visuels, Éric puise dans <strong>les différents styles et codes du tatouage
                                 traditionnel</strong> qu’il réinterprète dans un esprit <strong>surréaliste et
-                                minimaliste</strong>. Si ses flashs sont pensés comme des pièces “prêtes à porter”, il
+                                    minimaliste</strong>. Si ses flashs sont pensés comme des pièces “prêtes à porter”, il
                             apprécie également de composer des tatouages sur mesure, à la demande du client.</p>
                         <p><i>“Un bon tatoueur doit répondre à la demande du client et même aller au-delà.”</i></p>
                     </div>
 
                     <Image src={imgEric} width={350}
-                           height={350} className="h-[350px] w-[350px]" alt={'tattoo Eric'}/>
+                        height={350} className="h-[350px] w-[350px]" alt={'tattoo Eric'} />
 
                 </div>
             </SwiperSlide>
@@ -50,7 +51,7 @@ export default function artistSwiper() {
                     <div className="flex flex-col gap-4">
                         <h4 className="uppercase">UncleHo, un artiste tatoueur au style néo-japonais à Strasbourg</h4>
                         <Link href="https://www.instagram.com/uncle_ho_mitchmalone/?hl=fr"><GrInstagram
-                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
+                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300" /></Link>
                         <p>Le tatouage néo-japonais s’inspire du tatouage japonais traditionnel. Il en reprend les
                             codes,
                             dans ses dessins mais s’éloigne de la symbolique pour des <strong>motifs</strong> <strong>plus
@@ -71,7 +72,7 @@ export default function artistSwiper() {
                     </div>
 
                     <Image src={imgRichard} width={350}
-                           height={350} className="h-[350px] w-[350px]" alt={'tattoo Richard'}/>
+                        height={350} className="h-[350px] w-[350px]" alt={'tattoo Richard'} />
 
                 </div>
             </SwiperSlide>
@@ -82,7 +83,7 @@ export default function artistSwiper() {
                         <h4 className="uppercase">JBMaglia, un tatoueur dans le style japonais traditionnel à
                             Strasbourg</h4>
                         <Link href="https://www.instagram.com/jbmaglia/?hl=fr"><GrInstagram
-                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300"/></Link>
+                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300" /></Link>
                         <p>Dragon, tigre, carpe et chrysanthème, pour Jean-Baptiste, le tatouage se décline dans
                             un <strong>style japonais traditionnel</strong>. Sans être rigoriste, il compulse estampes,
                             peintures et bandes dessinées pour proposer des <strong>motifs occidentalisés</strong>,
@@ -96,7 +97,23 @@ export default function artistSwiper() {
                     </div>
 
                     <Image src={imgJb} width={350}
-                           height={350} className="h-[350px] w-[350px]" alt={'tattoo JB'}/>
+                        height={350} className="h-[350px] w-[350px]" alt={'tattoo JB'} />
+                </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <div className="flex flex-col xl:flex-row  items-center gap-16">
+                    <div className="flex flex-col gap-4">
+                        <h4 className="uppercase">JOC, un tatoueur dans le style blackwork à Strasbourg</h4>
+                        <Link href="https://www.instagram.com/joc.tattooer/?hl=fr"><GrInstagram
+                            className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300" /></Link>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo dolor nec risus commodo dapibus. Sed placerat lorem lorem, a mattis arcu condimentum eget. Vestibulum finibus quam sit amet aliquam commodo. Etiam urna sem, ultrices quis ex id, pulvinar tempus mi. Phasellus tempor nibh ac lorem tristique malesuada. Aenean imperdiet quis dolor sed egestas. Phasellus elit augue, posuere vel efficitur a, vestibulum ac enim.
+                        </p>
+                    </div>
+
+                    <Image src={imgJoc} width={350}
+                        height={350} className="h-[350px] w-[350px]" alt={'tattoo Joc'} />
+
                 </div>
             </SwiperSlide>
 
