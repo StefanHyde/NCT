@@ -3,15 +3,15 @@ import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/post
 
 export default function handler(req, res) {
     // Verify if post method is used
-    if(req.method !== 'POST') {
-        res.status(405).json({message: 'INVALID_METHOD'});
+    if (req.method !== 'POST') {
+        res.status(405).json({ message: 'INVALID_METHOD' });
         return;
     }
 
     const { name, email, phone, select, contenu } = req.body;
 
-    if(!name || !email || !select || !contenu ) {
-        res.status(400).json({message: 'INVALID_PARAMETERS'});
+    if (!name || !email || !select || !contenu) {
+        res.status(400).json({ message: 'INVALID_PARAMETERS' });
         return;
     }
 
@@ -25,6 +25,17 @@ export default function handler(req, res) {
         return;
     }
 
+    // Mapping des artistes vers leurs adresses email
+    const artistEmails = {
+        'Erico': 'ericotattoo@yahoo.com',
+        'UncleHo': 'homer67@gmail.com',
+        'JBMaglia': 'jxbxtattoo@gmail.com',
+        'JOC': 'joc.tattooer@gmail.com'
+    };
+
+    // Récupération de l'adresse email correspondant à l'artiste sélectionné
+    const recipientEmail = artistEmails[select] || 'neoncobratattoo@gmail.com';
+
     // Transform lines returns
     const message = contenu
         .replace(/\n/g, "<br>")
@@ -37,7 +48,7 @@ export default function handler(req, res) {
 
     //Create message
     const senderGridMail = {
-        to: "neoncobratattoo@gmail.com",
+        to: recipientEmail,
         from: "contact@stefanheyd.com",
         templateId: "d-2b19a7a80ac14d58b8a85dbea0764e83",
         dynamic_template_data: {
@@ -50,16 +61,16 @@ export default function handler(req, res) {
     };
 
     //Sendgrid
-        (async () => {
-            try {
-                await sgMail.send(senderGridMail);
-                res.status(200).json({message: 'EMAIL_SEND',});
-            }
-            catch {
-                res.status(500).json({message: 'ERROR_WITH_SENDGRID',});
-                return;
-            }
-        })();
+    (async () => {
+        try {
+            await sgMail.send(senderGridMail);
+            res.status(200).json({ message: 'EMAIL_SEND', });
+        }
+        catch {
+            res.status(500).json({ message: 'ERROR_WITH_SENDGRID', });
+            return;
+        }
+    })();
 
 
 }
