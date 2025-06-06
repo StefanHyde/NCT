@@ -99,7 +99,7 @@ export default function Contact() {
                     <textarea
                         name="message"
                         className="block w-full mt-1 p-2 border border-neutrals-300 rounded-sm focus:border-neutrals-500 placeholder:text-sm font-light"
-                        rows="3"
+                        rows="8"
                         placeholder="Votre message"
                         {...register('contenu', { required: true })}
                     ></textarea>
