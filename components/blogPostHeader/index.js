@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import defaultCoverImage from '@assets/img/actualites/NCT-2.jpg';
 
 
 
@@ -41,7 +41,7 @@ export default function BlogPostHeader({
       </div>
 
       <Image
-        src={coverImage} // Use fallback image if no cover image is provided
+        src={coverImage ? coverImage : defaultCoverImage} // Use fallback image if no cover image is provided
         alt={title}
         width={1200}
         height={800}
