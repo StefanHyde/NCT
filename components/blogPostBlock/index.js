@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 export default function BlogPostBlock({ post }) {
   return (
-    <Link href={`/blog/posts/${post.slug}`}>
+    <Link href={`/actualites/${post.slug}`}>
       <article
         key={post.id}
-        className="group border-2 border-neutrals-1000 rounded-md hover:border-primary-300 transition-all duration-300 ease-in-out mb-8"
+        className="group border-4 border-neutrals-1000 rounded-md hover:border-primary-300 transition-all duration-300 ease-in-out mb-8"
       >
 
         <div className="flex h-1/2 flex-col justify-around p-4 mb-8">
