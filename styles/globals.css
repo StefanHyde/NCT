@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
   font-family: "Sci Fied";
@@ -126,76 +126,74 @@ a {
 }
 
 /* Mapping WP classes to Tailwind CSS */
-@utility post-content {
-  h1 {
-    @apply mt-8 mb-4 text-4xl font-bold md:text-5xl;
-  }
+.post-content h1 {
+  @apply mt-8 mb-4 text-4xl font-bold md:text-5xl;
+}
 
-  h2 {
-    @apply mt-8 mb-4 text-3xl font-bold md:text-4xl;
-  }
+.post-content h2 {
+  @apply mt-8 mb-4 text-3xl font-bold md:text-4xl;
+}
 
-  h3 {
-    @apply mt-8 mb-4 text-2xl font-bold md:text-3xl;
-  }
+.post-content h3 {
+  @apply mt-8 mb-4 text-2xl font-bold md:text-3xl;
+}
 
-  h4 {
-    @apply mt-8 mb-4 text-xl font-bold md:text-2xl;
-  }
+.post-content h4 {
+  @apply mt-8 mb-4 text-xl font-bold md:text-2xl;
+}
 
-  h5 {
-    @apply mt-8 mb-4 text-lg font-bold md:text-xl;
-  }
+.post-content h5 {
+  @apply mt-8 mb-4 text-lg font-bold md:text-xl;
+}
 
-  h6 {
-    @apply mt-8 mb-4 text-base font-bold md:text-lg;
-  }
+.post-content h6 {
+  @apply mt-8 mb-4 text-base font-bold md:text-lg;
+}
 
-  a {
-    @apply decoration-primary-500 text-primary-500 hover:text-primary-600 underline duration-300 ease-in-out hover:no-underline hover:decoration-0;
-  }
+.post-content a {
+  @apply decoration-primary-500 text-primary-500 hover:text-primary-600 underline duration-300 ease-in-out hover:no-underline hover:decoration-0;
+}
 
-  li {
-    @apply my-2;
-  }
+.post-content li {
+  @apply my-2;
+}
 
-  hr {
-    @apply border-primary-200 my-8 border-t;
-  }
+.post-content hr {
+  @apply border-primary-200 my-8 border-t;
+}
 
-  .wp-block-image {
-    @apply flex flex-col items-center justify-center;
+.post-content .wp-block-image {
+  @apply flex flex-col items-center justify-center;
+}
 
-    .wp-element-caption {
-      @apply text-neutrals-500  mt-2 text-center text-sm italic;
-    }
-  }
+.post-content .wp-block-image .wp-element-caption {
+  @apply text-neutrals-500 mt-2 text-center text-sm italic;
+}
 
-  .wp-block-image.aligncenter {
-    @apply flex justify-center;
-  }
+.post-content .wp-block-image.aligncenter {
+  @apply flex justify-center;
+}
 
-  .wp-block-columns {
-    @apply grid grid-cols-1 items-center gap-8 md:grid-cols-2;
-  }
+.post-content .wp-block-columns {
+  @apply grid grid-cols-1 items-center gap-8 md:grid-cols-2;
+}
 
-  blockquote {
-    @apply bg-neutrals-50  border-primary-500 dark:border-primary-900 my-8 border-l-4 p-4 italic;
-  }
+.post-content blockquote {
+  @apply bg-neutrals-50 border-primary-500 dark:border-primary-900 my-8 border-l-4 p-4 italic;
+}
 
-  .wp-block-list {
-    @apply list-inside list-disc;
-  }
+.post-content .wp-block-list {
+  @apply list-inside list-disc;
+}
 
-  .wp-block-gallery {
-    @apply grid grid-cols-1 gap-8 md:grid-cols-2;
-  }
+.post-content .wp-block-gallery {
+  @apply grid grid-cols-1 gap-8 md:grid-cols-2;
+}
 
-  .wp-block-embed__wrapper {
-    @apply flex justify-center;
+.post-content .wp-block-embed__wrapper {
+  @apply flex justify-center;
+}
 
-    iframe {
-      @apply rounded-sm;
-    }
-  }
+.post-content .wp-block-embed__wrapper iframe {
+  @apply rounded-sm;
 }
