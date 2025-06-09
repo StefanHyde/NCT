@@ -4,10 +4,11 @@ import Head from 'next/head';
 import Hero from '@components/hero';
 import BlogPostBlock from '@components/blogPostBlock';
 import coverImg from '../../public/img/actualites/NCT-68.jpg'
+import Pagination from '@/components/pagination';
 
 
 
-const POSTS_PER_PAGE = 8;
+const POSTS_PER_PAGE = 5;
 
 // Créer un composant pour la liste des posts
 function BlogPostList({ posts }) {
@@ -58,8 +59,17 @@ export default function BlogPage() {
         <Hero title="Nos actualités" description="Toutes les actualités et nouveautés de notre salon de tatouage" src={coverImg} place="xl:ml-40" height="h-128" />
       </div>
       <div className="flex justify-center py-12 bg-neutrals-0 space-y-4">
+
         <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-start text-neutrals-1000">
-          <BlogPostList posts={posts} />
+          {currentPage === 1 && (
+            <h3 className="font-poppins mb-8 text-xl font-semibold">Derniers articles</h3>
+          )}
+          <BlogPostList posts={visiblePosts} />
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
+          />
         </div>
       </div>
     </>
