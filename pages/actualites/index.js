@@ -55,7 +55,7 @@ export default function BlogPage() {
       </Head>
 
       <div className="mt-18">
-        <Hero title="Nos actualités" description="Toutes les actualités et nouveautés de notre salon de tatouage" src={coverImg} place="xl:ml-40" />
+        <Hero title="Nos actualités" description="Toutes les actualités et nouveautés de notre salon de tatouage" src={coverImg} place="xl:ml-40" height="h-128" />
       </div>
       <div className="flex justify-center py-12 bg-neutrals-0 space-y-4">
         <div className="w-full p-6 md:w-2/3 xl:w-1/2 font-poppins text-start text-neutrals-1000">

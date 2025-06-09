@@ -3,14 +3,14 @@ import { GrInstagram, GrMail } from "react-icons/gr";
 import Link from "next/link";
 import { useRouter } from 'next/router'
 
-export default function Hero({ src, alt, title, description, link, mail, place, ...props }) {
+export default function Hero({ src, alt, title, description, link, mail, height, place, ...props }) {
     const router = useRouter();
     const currentPath = router.pathname;
 
     if (currentPath === '/artists/eric' || currentPath === '/artists/jb' || currentPath === '/artists/richard' || currentPath === '/artists/joc') {
         return (
-            <div className="relative w-full h-128 md:h-192 2xl:h-256">
-                <div className="flex items-center justify-center xl:justify-start bg-neutrals-1000 h-full w-full">
+            <div className={`relative w-full ${height}`}>
+                <div className="flex items-center justify-center xl:justify-start bg-neutrals-1000 w-full">
                     <Image {...props} src={src} alt={alt}
                         className="object-cover object-center h-full w-full opacity-40 md:opacity-80" />
                     <div
@@ -30,7 +30,7 @@ export default function Hero({ src, alt, title, description, link, mail, place, 
         )
     } else {
         return (
-            <div className="relative w-full h-128 md:h-192 2xl:h-256">
+            <div className={`relative w-full ${height}`}>
                 <div className="flex items-center justify-center xl:justify-start bg-neutrals-1000 h-full w-full">
                     <Image {...props} src={src} alt={alt}
                         className="object-cover object-center h-full w-full opacity-40 md:opacity-80" />
