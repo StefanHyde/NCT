@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/hero";
 import ImgGallery from "@/components/imgGallery";
 import imgJb from "../../../public/img/artists/jb/NCT-6.jpg";
-import Link from "next/link";
+
 
 export default function Jb() {
 
