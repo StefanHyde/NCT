@@ -13,7 +13,7 @@ export default function BlogPost({ post, comments }) {
   return (
     <>
       <Head>
-        <title>{post.seo?.title || post.title}</title>
+        <title> {post.seo?.title || post.title} | Neon Cobra 🐍 </title>
         <meta name="description" content={post.seo?.metaDesc || ''} />
         <meta name="keywords" content={post.seo?.focuskw || ''} />
         <meta property="og:title" content={post.seo?.opengraphTitle || post.seo?.title || post.title} />

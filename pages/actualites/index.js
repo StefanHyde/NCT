@@ -1,5 +1,6 @@
 import { Suspense, useEffect, useState } from 'react';
 import { getPosts } from '@api/wordpress/service';
+import Head from 'next/head';
 import Hero from '@components/hero';
 import BlogPostBlock from '@components/blogPostBlock';
 import coverImg from '../../public/img/actualites/NCT-68.jpg'
@@ -48,6 +49,11 @@ export default function BlogPage() {
 
   return (
     <>
+      <Head>
+        <title>Actualités | Neon Cobra 🐍</title>
+        <meta name="description" content="Toutes les actualités et nouveautés de notre salon de tatouage" />
+      </Head>
+
       <div className="mt-18">
         <Hero title="Nos actualités" description="Toutes les actualités et nouveautés de notre salon de tatouage" src={coverImg} place="xl:ml-40" />
       </div>
