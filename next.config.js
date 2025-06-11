@@ -6,7 +6,11 @@ const nextConfig = {
   },
   images: {
     domains: ['blog.neoncobratattoo.com'],
+    formats: ['image/webp', 'image/avif'],
   },
+  // Optimisation pour le déploiement
+  trailingSlash: false,
+  output: 'standalone',
 }
 
 module.exports = nextConfig

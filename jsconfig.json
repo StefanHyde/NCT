@@ -5,7 +5,7 @@
       "@/*": ["./*"],
       "@api/*": ["./pages/api/*"],
       "@components/*": ["./components/*"],
-      "@assets/*": ["./public/*"]
+      "@public/*": ["./public/*"]
     }
   }
 }

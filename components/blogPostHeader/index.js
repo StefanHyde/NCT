@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import defaultCoverImage from '@assets/img/actualites/NCT-2.jpg';
+import defaultCoverImage from '@public/img/actualites/NCT-2.jpg';
 
 
 

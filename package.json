@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check-assets": "node scripts/check-assets.js",
+    "prebuild": "npm run check-assets"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.35.0",

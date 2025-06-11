@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Sci Fied";
-  src: url("../assets/fonts/scifi2k2.ttf");
+  src: url("/fonts/scifi2k2.ttf");
 }
 
 :root {
