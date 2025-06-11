@@ -21,7 +21,6 @@ export default function Jb() {
         "/img/artists/jb/remi2.jpg",
         "/img/artists/jb/tigre3quart.jpg",
         "/img/artists/jb/Kannondragon.jpg",
-        "/img/artists/jb/IMG-4977.jpg",
         "/img/artists/jb/8A2A8879.jpg",
         "/img/artists/jb/jb maglia bras dragon.jpg",
         "/img/artists/jb/jb maglia bras dragon 2.jpg",
