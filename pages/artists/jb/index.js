@@ -31,6 +31,8 @@ export default function Jb() {
         "/img/artists/jb/jb maglia ryugyo.jpg",
         "/img/artists/jb/jb maglia tigre.jpg",
         "/img/artists/jb/IMG-4601.jpg",
+        "/img/artists/jb/jb maglia fudo myoo 1.JPG",
+        "/img/artists/jb/jb maglia fudo myoo 2.JPG",
         "/img/artists/jb/jb maglia fudo myoo 3.jpg",
         "/img/artists/jb/jb maglia tengu 2.jpg",
         "/img/artists/jb/jb maglia carpe koi.jpg",
