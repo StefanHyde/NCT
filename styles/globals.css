@@ -179,7 +179,7 @@ a {
 }
 
 .post-content blockquote {
-  @apply bg-neutrals-50 border-primary-500 dark:border-primary-900 my-8 border-l-4 p-4 italic;
+  @apply bg-neutrals-50 border-primary-500 my-8 border-l-4 p-4 italic;
 }
 
 .post-content .wp-block-list {

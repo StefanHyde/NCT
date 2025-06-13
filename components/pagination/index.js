@@ -14,7 +14,7 @@ export default function Pagination({
       <button
         onClick={() => currentPage > 1 && onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="hover:bg-dark-50 rounded-md p-2 disabled:cursor-not-allowed disabled:opacity-50 dark:hover:bg-slate-800"
+        className="hover:bg-dark-50 rounded-md p-2 disabled:cursor-not-allowed disabled:opacity-50 "
         aria-label="Previous page"
       >
         <HiArrowSmLeft className="h-5 w-5" />

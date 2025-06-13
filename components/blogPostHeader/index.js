@@ -31,7 +31,7 @@ export default function BlogPostHeader({
             {tags?.nodes?.map((tag) => (
               <div
                 key={tag.name}
-                className="bg-primary-200 dark:bg-primary-500 text-primary-900 dark:text-almost-white mr-2 rounded-sm p-1 text-xs"
+                className="bg-primary-200 text-primary-900 mr-2 rounded-sm p-1 text-xs"
               >
                 {tag.name}
               </div>
