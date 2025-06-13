@@ -107,8 +107,6 @@ export default function artistSwiper() {
                         <h4 className="uppercase">JOC, un tatoueur dans le style blackwork à Strasbourg</h4>
                         <Link href="https://www.instagram.com/joc.tattooer/?hl=fr"><GrInstagram
                             className="text-2xl text-neutrals-0 hover:text-primary-500 ease-in-out duration-300" /></Link>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo dolor nec risus commodo dapibus. Sed placerat lorem lorem, a mattis arcu condimentum eget. Vestibulum finibus quam sit amet aliquam commodo. Etiam urna sem, ultrices quis ex id, pulvinar tempus mi. Phasellus tempor nibh ac lorem tristique malesuada. Aenean imperdiet quis dolor sed egestas. Phasellus elit augue, posuere vel efficitur a, vestibulum ac enim.
-                        </p>
                     </div>
 
                     <Image src={imgJoc} width={350}
