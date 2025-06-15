@@ -12,25 +12,31 @@ import { fetchWPAPI } from './base';
 export async function getPosts(first = 10) {
   const data = await fetchWPAPI(
     `query FetchPosts($first: Int = 10) {
-  posts(first: $first) {
-    nodes {
-      excerpt
-      featuredImage {
-        node {
-          sourceUrl
-        }
-      }
-      slug
-      title
-      date
-      tags {
+      posts(first: $first, where: { status: PUBLISH }) {
         nodes {
-          name
+          excerpt
+          featuredImage {
+            node {
+              sourceUrl
+            }
+          }
+          slug
+          title
+          date
+          status
+          author {
+            node {
+              name
+            }
+          }
+          tags {
+            nodes {
+              name
+            }
+          }
         }
       }
-    }
-  }
-}`,
+    }`,
     {
       variables: {
         first,
@@ -41,55 +47,82 @@ export async function getPosts(first = 10) {
   return data?.posts?.nodes;
 }
 
+// Test function to check WordPress API
+export async function testWordPressAPI() {
+  const data = await fetchWPAPI(
+    `query TestAPI {
+      posts(first: 1) {
+        nodes {
+          id
+          title
+          slug
+          status
+        }
+      }
+    }`
+  );
+
+  console.log('[testWordPressAPI] Response:', JSON.stringify(data, null, 2));
+  return data;
+}
+
 // To get a single post
 export async function getPostBySlug(slug) {
+  console.log('[getPostBySlug] Attempting to fetch post with slug:', slug);
+
+  // First test the API
+  await testWordPressAPI();
+
   const data = await fetchWPAPI(
-    `query GetPost($id: ID = "") {
-    post(id: $id, idType: SLUG) {
-      databaseId
-      content
-      featuredImage {
-        node {
-          sourceUrl
+    `query GetPost($slug: String!) {
+      postBy(slug: $slug) {
+        databaseId
+        content
+        status
+        featuredImage {
+          node {
+            sourceUrl
+          }
         }
-      }
-      slug
-      seo {
-        metaDesc
+        slug
+        seo {
+          metaDesc
+          title
+          fullHead
+          focuskw
+          opengraphImage {
+            id
+            uri
+            link
+          }
+          opengraphDescription
+          opengraphTitle
+          opengraphUrl
+        }
         title
-        fullHead
-        focuskw
-        opengraphImage {
-          id
-          uri
-          link
+        date
+        author {
+          node {
+            name
+            id
+          }
         }
-        opengraphDescription
-        opengraphTitle
-        opengraphUrl
-      }
-      title
-      date
-      author {
-        node {
-          name
+        tags {
+          nodes {
+            name
+          }
         }
       }
-      tags {
-        nodes {
-          name
-        }
-      }
-    }
-  }`,
+    }`,
     {
       variables: {
-        id: slug,
+        slug,
       },
     },
   );
 
-  return data?.post;
+  console.log('[getPostBySlug] Response:', JSON.stringify(data, null, 2));
+  return data?.postBy;
 }
 
 // To get comments for a post
