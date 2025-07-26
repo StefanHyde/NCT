@@ -1,76 +1,83 @@
-import sgMail from "@sendgrid/mail";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
+import { Resend } from "resend";
+import { RateLimiterMemory, RateLimiterRes } from "rate-limiter-flexible";
+import Email from "@/email";
 
-export default function handler(req, res) {
-    // Verify if post method is used
-    if (req.method !== 'POST') {
-        res.status(405).json({ message: 'INVALID_METHOD' });
-        return;
+const resend = new Resend(process.env.RESEND_API_KEY);
+
+const rateLimiter = new RateLimiterMemory({
+  points: 5,
+  duration: 15 * 60,
+});
+
+// Mapping des artistes vers leurs adresses email
+const artistEmails = {
+  Erico: "ericotattoo@yahoo.com",
+  UncleHo: "homer67@gmail.com",
+  JBMaglia: "jxbxtattoo@gmail.com",
+  JOC: "joc.tattooer@gmail.com",
+};
+
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ message: "Method not allowed" });
+  }
+
+  try {
+    const ip =
+      req.headers["x-forwarded-for"] || req.headers["x-real-ip"] || req.headers["cf-connecting-ip"] || "unknown";
+
+    // Rate limiting check
+    try {
+      await rateLimiter.consume(ip);
+    } catch (error) {
+      if (error instanceof RateLimiterRes) {
+        return res.status(429).json({ message: "TOO_MANY_REQUESTS" });
+      }
     }
 
     const { name, email, phone, select, contenu } = req.body;
 
+    // Validation des champs requis
     if (!name || !email || !select || !contenu) {
-        res.status(400).json({ message: 'INVALID_PARAMETERS' });
-        return;
+      return res.status(400).json({ message: "INVALID_PARAMETERS" });
     }
 
-    // Email syntax
+    // Email syntax validation
     const pattern =
-        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (!pattern.test(email)) {
-        res.status(400).send({
-            message: "EMAIL_SYNTAX_INCORRECT",
-        });
-        return;
+      return res.status(400).json({ message: "EMAIL_SYNTAX_INCORRECT" });
     }
 
-    // Mapping des artistes vers leurs adresses email
-    const artistEmails = {
-        'Erico': 'ericotattoo@yahoo.com',
-        'UncleHo': 'homer67@gmail.com',
-        'JBMaglia': 'jxbxtattoo@gmail.com',
-        'JOC': 'joc.tattooer@gmail.com'
-    };
+    // Récupération de l'adresse email de l'artiste
+    const recipientEmail = artistEmails[select] || "neoncobratattoo@gmail.com";
 
-    // Récupération de l'adresse email correspondant à l'artiste sélectionné
-    const recipientEmail = artistEmails[select] || 'neoncobratattoo@gmail.com';
-
-    // Transform lines returns
+    // Transform line returns for HTML
     const message = contenu
-        .replace(/\n/g, "<br>")
-        .replace(/\r/g, "<br>")
-        .replace(/\t/g, "<br>")
-        .replace(/<(?!br\s*\/?)[^>]+>/g, "");
+      .replace(/\n/g, "<br>")
+      .replace(/\r/g, "<br>")
+      .replace(/\t/g, "<br>")
+      .replace(/<(?!br\s*\/?)[^>]+>/g, "");
 
-    // API key
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
-    //Create message
-    const senderGridMail = {
+    try {
+      const data = await resend.emails.send({
+        from: "heyd.stephane@gmail.com",
         to: recipientEmail,
-        from: "contact@stefanheyd.com",
-        templateId: "d-2b19a7a80ac14d58b8a85dbea0764e83",
-        dynamic_template_data: {
-            contenu: message,
-            nom: name,
-            email: email,
-            phone: phone,
-            artist: select,
-        },
-    };
+        subject: `Nouvelle demande de contact pour ${select}`,
+        react: Email({
+          name,
+          message,
+          senderMail: email,
+        }),
+      });
 
-    //Sendgrid
-    (async () => {
-        try {
-            await sgMail.send(senderGridMail);
-            res.status(200).json({ message: 'EMAIL_SEND', });
-        }
-        catch {
-            res.status(500).json({ message: 'ERROR_WITH_SENDGRID', });
-            return;
-        }
-    })();
-
-
+      return res.status(200).json({ message: "EMAIL_SEND", data });
+    } catch (error) {
+      console.error("Resend API error:", error);
+      return res.status(500).json({ message: "ERROR_WITH_RESEND" });
+    }
+  } catch (error) {
+    console.error("Unexpected error:", error);
+    return res.status(500).json({ message: "INTERNAL_SERVER_ERROR" });
+  }
 }
