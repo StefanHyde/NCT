@@ -61,7 +61,7 @@ export default async function handler(req, res) {
 
     try {
       const data = await resend.emails.send({
-        from: "heyd.stephane@gmail.com",
+        from: "contact@neoncobratattoo.com",
         to: recipientEmail,
         subject: `Nouvelle demande de contact pour ${select}`,
         react: Email({
