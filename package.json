@@ -9,7 +9,7 @@
     "lint": "next lint",
     "check-assets": "node scripts/check-assets.js",
     "prebuild": "npm run check-assets",
-    "mail": "email dev --dir src/email"
+    "mail": "email dev --dir ./email"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.35.0",
@@ -37,6 +37,7 @@
     "zod": "^3.25.55"
   },
   "devDependencies": {
+    "@react-email/preview-server": "^4.2.4",
     "autoprefixer": "10.4.13",
     "postcss": "8.4.21",
     "react-email": "4.2.4",
