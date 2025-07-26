@@ -1,17 +1,5 @@
-import {
-  Body,
-  Button,
-  Container,
-  Font,
-  Head,
-  Html,
-  Preview,
-  Section,
-  Text,
-} from '@react-email/components';
-import React from 'react';
-
-
+import { Body, Button, Container, Font, Head, Html, Preview, Section, Text } from "@react-email/components";
+import React from "react";
 
 export default function Email({ name, senderMail, message }) {
   return (
@@ -21,8 +9,8 @@ export default function Email({ name, senderMail, message }) {
         fontFamily="Nunito"
         fallbackFontFamily="Verdana"
         webFont={{
-          url: 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap',
-          format: 'woff2',
+          url: "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap",
+          format: "woff2",
         }}
         fontWeight={500}
         fontStyle="normal"
@@ -32,10 +20,8 @@ export default function Email({ name, senderMail, message }) {
       <Body>
         <Container>
           <Section>
-            <Text>
-              <h1>Vous avez un nouveau message de {name}</h1>
-              <p>{message}</p>
-            </Text>
+            <Text style={{ fontSize: "24px", fontWeight: "bold" }}>Vous avez un nouveau message de {name}</Text>
+            <Text>{message}</Text>
             <Button href={`mailto:${senderMail}`}>Répondre</Button>
           </Section>
         </Container>
