@@ -53,11 +53,7 @@ export default async function handler(req, res) {
     const recipientEmail = artistEmails[select] || "neoncobratattoo@gmail.com";
 
     // Transform line returns for HTML
-    const message = contenu
-      .replace(/\n/g, "<br>")
-      .replace(/\r/g, "<br>")
-      .replace(/\t/g, "<br>")
-      .replace(/<(?!br\s*\/?)[^>]+>/g, "");
+    const message = contenu;
 
     try {
       const data = await resend.emails.send({
