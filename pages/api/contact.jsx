@@ -62,6 +62,7 @@ export default async function handler(req, res) {
         subject: `Nouvelle demande de contact pour ${select}`,
         react: Email({
           name,
+          phone,
           message,
           senderMail: email,
         }),

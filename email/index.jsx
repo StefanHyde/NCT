@@ -1,7 +1,7 @@
 import { Body, Button, Container, Font, Head, Html, Preview, Section, Text } from "@react-email/components";
 import React from "react";
 
-export default function Email({ name, senderMail, message }) {
+export default function Email({ name, senderMail, message, phone }) {
   return (
     <Html>
       <Head />
@@ -21,6 +21,7 @@ export default function Email({ name, senderMail, message }) {
         <Container>
           <Section>
             <Text style={{ fontSize: "24px", fontWeight: "bold" }}>Vous avez un nouveau message de {name}</Text>
+            <Text>Numéro de téléphone: {phone}</Text>
             <Text>{message}</Text>
             <Button href={`mailto:${senderMail}`}>Répondre</Button>
           </Section>
