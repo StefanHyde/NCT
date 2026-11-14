@@ -12,7 +12,6 @@
     "mail": "email dev --dir ./email"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^4.35.0",
     "@next/font": "13.1.6",
     "@react-email/components": "0.3.2",
     "@react-email/tailwind": "1.2.2",
@@ -38,6 +37,7 @@
     "zod": "^3.25.55"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.16.7",
     "@react-email/preview-server": "^4.2.4",
     "autoprefixer": "10.4.13",
     "postcss": "8.4.21",
