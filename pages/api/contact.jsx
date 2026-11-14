@@ -14,7 +14,6 @@ const artistEmails = {
   Erico: "ericotattoo@yahoo.com",
   UncleHo: "homer67@gmail.com",
   JBMaglia: "jxbxtattoo@gmail.com",
-  JOC: "joc.tattooer@gmail.com",
 };
 
 export default async function handler(req, res) {
