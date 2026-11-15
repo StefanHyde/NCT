@@ -1,6 +1,6 @@
 import { GetServerSideProps } from "next";
 
-const EXTERNAL_DATA_URL = "https://votredomaine.com";
+const EXTERNAL_DATA_URL = "https://neoncobratattoo.com";
 
 function generateSiteMap(pages: string[]) {
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -22,7 +22,7 @@ function generateSiteMap(pages: string[]) {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const staticPages = ["", "/a-propos", "/services", "/contact"];
+  const staticPages = ["", "/a-propos", "/artists/"];
 
   const sitemap = generateSiteMap(staticPages);
 
