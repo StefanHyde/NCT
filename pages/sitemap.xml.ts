@@ -4,7 +4,7 @@ const EXTERNAL_DATA_URL = "https://neoncobratattoo.com";
 
 function generateSiteMap(pages: string[]) {
   return `<?xml version="1.0" encoding="UTF-8"?>
-   <urlset xmlns="http://sitemaps.org">
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      ${pages
        .map((route) => {
          return `
